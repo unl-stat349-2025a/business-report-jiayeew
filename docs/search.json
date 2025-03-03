@@ -1,0 +1,43 @@
+[
+  {
+    "objectID": "draft-data-doc.html",
+    "href": "draft-data-doc.html",
+    "title": "Appendix A — Draft: Data Documentation",
+    "section": "",
+    "text": "Website: https://www.bls.gov/news.release/cfoi.nr0.htm\nThe data consists of occupational injuries and fatalities in the United States. It includes statistics on fatal occupational injuries and other related measures to promote safety awareness. The data was collected annually, with the current dataset covering from 2019 to 2023. The Data collection was conducted through two primary methods: Census of Fatal Occupational Injuries (CFOI), which is part of the U.S. Bureau of Labor Statistics (BLS), captures detailed information on fatal workplace injuries. Secondly, through the Survey of Occupational Injuries and Illnesses (SOII), the SOII provides additional information on non-fatal occupational injuries. These sources ensures a comprehensive and accurate count of workplace fatalities. The data is organized into multiple tables categorized by demographic characteristics, industry sectors, occupations, and fatality rates per 100,000 full-time workers. The data is formatted in tabular form, making it easy to compare trends across years, industries, and occupations. It includes numerical values, percentage changes, and categorical groupings. The BLS ensures data accuracy by cross-referencing multiple sources, verifying reports, and using statistical methods to minimize errors. The CFOI follows strict validation procedures for completeness and reliability. The dataset is publicly available from the U.S. Bureau of Labor Statistics. It can be reused for research, policy development, and educational purposes under the BLS’s licensing terms. Suggested data analysis methods: summarize trends over time, evaluate differences across industries and occupations, detect patterns or emerging risks, and identify factors influencing workplace fatalities. The CFOI relies on administrative records, surveys, and official reports from agencies such as OSHA, NIOSH, and state labor departments to compile and verify data.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
