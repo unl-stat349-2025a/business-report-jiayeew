@@ -1,6 +1,32 @@
 ---
 title: "Draft: Data Documentation"
 ---
-Website: https://www.bls.gov/news.release/cfoi.nr0.htm
+The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.
 
-The data consists of occupational injuries and fatalities in the United States. It includes statistics on fatal occupational injuries and other related measures to promote safety awareness. The data was collected annually, with the current dataset covering from 2019 to 2023. The Data collection was conducted through two primary methods: Census of Fatal Occupational Injuries (CFOI), which is part of the U.S. Bureau of Labor Statistics (BLS), captures detailed information on fatal workplace injuries. Secondly, through the Survey of Occupational Injuries and Illnesses (SOII), the SOII provides additional information on non-fatal occupational injuries. These sources ensures a comprehensive and accurate count of workplace fatalities. The data is organized into multiple tables categorized by demographic characteristics, industry sectors, occupations, and fatality rates per 100,000 full-time workers. The data is formatted in tabular form, making it easy to compare trends across years, industries, and occupations. It includes numerical values, percentage changes, and categorical groupings. The BLS ensures data accuracy by cross-referencing multiple sources, verifying reports, and using statistical methods to minimize errors. The CFOI follows strict validation procedures for completeness and reliability. The dataset is publicly available from the U.S. Bureau of Labor Statistics. It can be reused for research, policy development, and educational purposes under the BLS’s licensing terms.  Suggested data analysis methods: summarize trends over time, evaluate differences across industries and occupations, detect patterns or emerging risks, and identify factors influencing workplace fatalities. The CFOI relies on administrative records, surveys, and official reports from agencies such as OSHA, NIOSH, and state labor departments to compile and verify data.
+The data comes from two main sources:
+
+ - Census of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics.
+ - Survey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off.
+ 
+What the Data Includes: 
+
+ - Types of Injuries & Illnesses: Falls, sprains, back injuries, and more.
+ - Industries Affected:  Construction, healthcare, office jobs, and others.
+ - Severity:  Whether the injury was fatal or required time off work.
+ - Worker Details:  Age, gender, and employment status.
+ - Work Environment: Indoor vs. outdoor jobs, high-risk workplaces.
+ - State Data: Number of injuries and illnesses by state, plus rates per 100 workers.
+ 
+
+How the Data Is Collected & Used:
+
+ - The Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards.
+
+
+Citation:
+
+ - @CensusFatalOccupational
+ - @EmployerReportedWorkplaceInjuries 
+ - @IIFHome
+ - @IFLatestNumbers
+ - @NIOSHWorkerHealth2024
