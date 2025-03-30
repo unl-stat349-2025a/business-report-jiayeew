@@ -2,3 +2,62 @@
 title: "Draft: Results"
 ---
 
+An analysis of workplace injury data reveals that office environments contribute 23.9% of total workplace injury costs, with same-level falls (17.2%) as the leading cause. In contrast, non-office settings account for a larger share (30.8%) of injury costs, primarily due to falls to lower levels (9.8%) and being struck by objects (9.6%).
+
+Geographically, workplace injury rates vary significantly. The Midwest reports the highest injury rate (82.1 per 100 workers), likely due to a concentration of labor-intensive industries. In contrast, Colorado has the lowest rate (5.5 per 100 workers), possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.
+
+## Workplace Injury Costs by Cause and Environment
+
+![Figure 1 highlights that office-related falls contribute more than twice the costs of non-office falls (21.2% vs. 9.8%).](officecomparison.png){fig-align="left" width="550"}
+
+| Injury Cause                  | \% of Costs | Environment |
+|:------------------------------|------------:|:------------|
+| Falls on same level           |       17.21 | Office      |
+| Falls to lower level          |        9.78 | Non-Office  |
+| Struck by object or equipment |        9.56 | Non-Office  |
+| Roadway incidents             |        4.76 | Non-Office  |
+| Slip or trip without fall     |        4.02 | Office      |
+| Caught in equipment           |        3.54 | Non-Office  |
+| Struck against object         |        3.17 | Non-Office  |
+| Repetitive motions            |        2.65 | Office      |
+
+: Table 1: Breakdown of Injury Costs by Cause and Work Environment.
+
+Falls represent a major cost driver in both settings, but office falls (same level + slips) account for 21.2% of fall-related costs, compared to 9.8% for non-office falls. This highlights the financial burden of seemingly minor but frequent office accidents.
+
+| Environment | Total % of Costs | Proportion of Falls |
+|:------------|-----------------:|--------------------:|
+| Non-Office  |             9.78 |                 32% |
+| Office      |            21.23 |                 68% |
+
+: Table 2: Fall-Related Injury Costs by Work Environment
+
+## Regional Workplace Injury Trends
+
+![Figure 2 shows the Midwest has both the highest median and most variable injury rates.](statecompare.png){fig-align="left" width="550"}
+
+| Region    | Average Rate | Median Rate | Number of States | Total Injuries (Thousands) |
+|:--------------|--------------:|--------------:|--------------:|--------------:|
+| Midwest   |         82.1 |        81.8 |               12 |                    17559.2 |
+| Northeast |         78.4 |        76.3 |                8 |                    14637.4 |
+| West      |         76.3 |        79.0 |               12 |                    15210.3 |
+| South     |         67.6 |        69.2 |               15 |                    24878.8 |
+
+: Table 3: Workplace Injury Rates by Region
+
+On the state level, Maine (116.3 per 100 workers) has the highest injury rate, over 20 times greater than Colorado (5.5 per 100 workers), which has the lowest. However, correlation analysis (r = -0.09, p = 0.553) indicates no significant relationship between case volume and injury rate, suggesting that higher total injury counts do not necessarily translate to higher rates at the state level.
+
+| Rank    | State         | Injury Rate | Cases (Thousands) | Region    |
+|:--------|:--------------|------------:|------------------:|:----------|
+| Lowest  | Massachusetts |        58.0 |            1349.6 | Northeast |
+| Lowest  | Georgia       |        53.9 |            1543.7 | South     |
+| Lowest  | Louisiana     |        49.2 |             656.3 | South     |
+| Lowest  | Florida       |        33.4 |            1776.2 | South     |
+| Lowest  | Colorado      |         5.5 |             107.5 | West      |
+| Highest | Maine         |       116.3 |             459.8 | Northeast |
+| Highest | Montana       |       104.8 |             292.8 | West      |
+| Highest | West Virginia |        96.2 |             543.2 | South     |
+| Highest | Alaska        |        93.0 |             186.9 | West      |
+| Highest | Iowa          |        92.7 |             961.2 | Midwest   |
+
+: Table 4: States with the Highest and Lowest Workplace Injury Rates

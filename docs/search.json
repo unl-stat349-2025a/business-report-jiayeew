@@ -4,7 +4,7 @@
     "href": "draft-data-doc.html",
     "title": "Appendix A — Draft: Data Documentation",
     "section": "",
-    "text": "The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.\nThe data comes from two main sources:\n\nCensus of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics.\nSurvey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off.\n\nWhat the Data Includes:\n\nTypes of Injuries & Illnesses: Falls, sprains, back injuries, and more.\nIndustries Affected: Construction, healthcare, office jobs, and others.\nSeverity: Whether the injury was fatal or required time off work.\nWorker Details: Age, gender, and employment status.\nWork Environment: Indoor vs. outdoor jobs, high-risk workplaces.\nState Data: Number of injuries and illnesses by state, plus rates per 100 workers.\n\nHow the Data Is Collected & Used:\n\nThe Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards.\n\nCitation:\n\n(CensusFatalOccupational?)\n(EmployerReportedWorkplaceInjuries?)\n(IIFHome?)\n(IFLatestNumbers?)\n(NIOSHWorkerHealth2024?)",
+    "text": "The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.\nThe data comes from two main sources:\n\nCensus of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics.\nSurvey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off.\n\nWhat the Data Includes:\n\nTypes of Injuries & Illnesses: Falls, sprains, back injuries, and more.\nIndustries Affected: Construction, healthcare, office jobs, and others.\nSeverity: Whether the injury was fatal or required time off work.\nWorker Details: Age, gender, and employment status.\nWork Environment: Indoor vs. outdoor jobs, high-risk workplaces.\nState Data: Number of injuries and illnesses by state, plus rates per 100 workers.\n\nHow the Data Is Collected & Used:\n\nThe Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards.\n\nCitation:\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results” (n.d.)\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results” (n.d.)\n“IIF Home” (n.d.)\n(IFLatestNumbers?)\n“NIOSH Worker Health Charts” (2024)\n\n\n\n\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results.” n.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results.” n.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” n.d. Bureau of Labor Statistics. Accessed March 10, 2025. https://www.bls.gov/iif/.\n\n\n“NIOSH Worker Health Charts.” 2024. February 12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
@@ -38,6 +38,50 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n(online?){CensusFatalOccupational, title = {Census of {{Fatal Occupational Injuries Summary}}, 2023 - 2023 {{A01 Results}}}, url = {https://www.bls.gov/news.release/cfoi.nr0.htm}, urldate = {2025-03-05}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/CYAKQ4PJ/cfoi.nr0.html} }\n(online?){EmployerReportedWorkplaceInjuries, title = {Employer-{{Reported Workplace Injuries}} and {{Illnesses}}, 2023 - 2023 {{A01 Results}}}, url = {https://www.bls.gov/news.release/osh.nr0.htm}, urldate = {2025-03-05}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/73EPJTYT/osh.nr0.html} }\n(online?){IIFHome, title = {{{IIF Home}}}, url = {https://www.bls.gov/iif/}, urldate = {2025-03-10}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/I8GRUP7W/iif.html} }\n(online?){IIFLatestNumbers, title = {{{IIF Latest Numbers}}}, url = {https://www.bls.gov/iif/latest-numbers.htm}, urldate = {2025-03-10}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/5FF2NSMM/latest-numbers.html} }\n(online?){NIOSHWorkerHealth2024, title = {{{NIOSH Worker Health Charts}}}, date = {2024-02-12T11:57:02Z}, url = {https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False}, urldate = {2025-03-10}, abstract = {A charting tool for accessing work-related data.}, langid = {american}, file = {/Users/jiayeewong/Zotero/storage/6FVPNPH9/injury.html} }",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "draft-results.html",
+    "href": "draft-results.html",
+    "title": "Appendix B — Draft: Results",
+    "section": "",
+    "text": "B.1 Workplace Injury Costs by Cause and Environment\nAn analysis of workplace injury data reveals that office environments contribute 23.9% of total workplace injury costs, with same-level falls (17.2%) as the leading cause. In contrast, non-office settings account for a larger share (30.8%) of injury costs, primarily due to falls to lower levels (9.8%) and being struck by objects (9.6%).\nGeographically, workplace injury rates vary significantly. The Midwest reports the highest injury rate (82.1 per 100 workers), likely due to a concentration of labor-intensive industries. In contrast, Colorado has the lowest rate (5.5 per 100 workers), possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.\nFalls represent a major cost driver in both settings, but office falls (same level + slips) account for 21.2% of fall-related costs, compared to 9.8% for non-office falls. This highlights the financial burden of seemingly minor but frequent office accidents.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html#workplace-injury-costs-by-cause-and-environment",
+    "href": "draft-results.html#workplace-injury-costs-by-cause-and-environment",
+    "title": "Appendix B — Draft: Results",
+    "section": "",
+    "text": "Figure 1 highlights that office-related falls contribute more than twice the costs of non-office falls (21.2% vs. 9.8%).\n\n\n\nTable 1: Breakdown of Injury Costs by Cause and Work Environment.\n\n\nInjury Cause\n% of Costs\nEnvironment\n\n\n\n\nFalls on same level\n17.21\nOffice\n\n\nFalls to lower level\n9.78\nNon-Office\n\n\nStruck by object or equipment\n9.56\nNon-Office\n\n\nRoadway incidents\n4.76\nNon-Office\n\n\nSlip or trip without fall\n4.02\nOffice\n\n\nCaught in equipment\n3.54\nNon-Office\n\n\nStruck against object\n3.17\nNon-Office\n\n\nRepetitive motions\n2.65\nOffice\n\n\n\n\n\nTable 2: Fall-Related Injury Costs by Work Environment\n\n\nEnvironment\nTotal % of Costs\nProportion of Falls\n\n\n\n\nNon-Office\n9.78\n32%\n\n\nOffice\n21.23\n68%",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html#regional-workplace-injury-trends",
+    "href": "draft-results.html#regional-workplace-injury-trends",
+    "title": "Appendix B — Draft: Results",
+    "section": "B.2 Regional Workplace Injury Trends",
+    "text": "B.2 Regional Workplace Injury Trends\n\n\n\nFigure 2 shows the Midwest has both the highest median and most variable injury rates.\n\n\n\nTable 3: Workplace Injury Rates by Region\n\n\n\n\n\n\n\n\n\nRegion\nAverage Rate\nMedian Rate\nNumber of States\nTotal Injuries (Thousands)\n\n\n\n\nMidwest\n82.1\n81.8\n12\n17559.2\n\n\nNortheast\n78.4\n76.3\n8\n14637.4\n\n\nWest\n76.3\n79.0\n12\n15210.3\n\n\nSouth\n67.6\n69.2\n15\n24878.8\n\n\n\nOn the state level, Maine (116.3 per 100 workers) has the highest injury rate, over 20 times greater than Colorado (5.5 per 100 workers), which has the lowest. However, correlation analysis (r = -0.09, p = 0.553) indicates no significant relationship between case volume and injury rate, suggesting that higher total injury counts do not necessarily translate to higher rates at the state level.\n\nTable 4: States with the Highest and Lowest Workplace Injury Rates\n\n\n\n\n\n\n\n\n\nRank\nState\nInjury Rate\nCases (Thousands)\nRegion\n\n\n\n\nLowest\nMassachusetts\n58.0\n1349.6\nNortheast\n\n\nLowest\nGeorgia\n53.9\n1543.7\nSouth\n\n\nLowest\nLouisiana\n49.2\n656.3\nSouth\n\n\nLowest\nFlorida\n33.4\n1776.2\nSouth\n\n\nLowest\nColorado\n5.5\n107.5\nWest\n\n\nHighest\nMaine\n116.3\n459.8\nNortheast\n\n\nHighest\nMontana\n104.8\n292.8\nWest\n\n\nHighest\nWest Virginia\n96.2\n543.2\nSouth\n\n\nHighest\nAlaska\n93.0\n186.9\nWest\n\n\nHighest\nIowa\n92.7\n961.2\nMidwest",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+    ]
+  },
+  {
+    "objectID": "draft-results.html#summary",
+    "href": "draft-results.html#summary",
+    "title": "Appendix B — Draft: Results",
+    "section": "B.3 Summary",
+    "text": "B.3 Summary\nOffice environments contribute 23.9% of injury costs, with same-level falls as the primary cause. Non-office environments account for 30.8% of injury costs, with falls to lower levels and being struck by objects as leading factors. Falls in offices are responsible for 21.2% of fall-related costs, more than double the 9.8% observed in non-office settings. Injury rates vary by region, but ANOVA results (p = 0.168) indicate no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) suggests no meaningful relationship between injury case volume and injury rate.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
     ]
   }
 ]
