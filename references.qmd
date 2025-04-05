@@ -3,49 +3,4 @@
 ::: {#refs}
 :::
 
-@online{CensusFatalOccupational,
-  title = {Census of {{Fatal Occupational Injuries Summary}}, 2023 - 2023 {{A01 Results}}},
-  url = {https://www.bls.gov/news.release/cfoi.nr0.htm},
-  urldate = {2025-03-05},
-  langid = {english},
-  organization = {Bureau of Labor Statistics},
-  file = {/Users/jiayeewong/Zotero/storage/CYAKQ4PJ/cfoi.nr0.html}
-}
-
-@online{EmployerReportedWorkplaceInjuries,
-  title = {Employer-{{Reported Workplace Injuries}} and {{Illnesses}}, 2023 - 2023 {{A01 Results}}},
-  url = {https://www.bls.gov/news.release/osh.nr0.htm},
-  urldate = {2025-03-05},
-  langid = {english},
-  organization = {Bureau of Labor Statistics},
-  file = {/Users/jiayeewong/Zotero/storage/73EPJTYT/osh.nr0.html}
-}
-
-@online{IIFHome,
-  title = {{{IIF Home}}},
-  url = {https://www.bls.gov/iif/},
-  urldate = {2025-03-10},
-  langid = {english},
-  organization = {Bureau of Labor Statistics},
-  file = {/Users/jiayeewong/Zotero/storage/I8GRUP7W/iif.html}
-}
-
-@online{IIFLatestNumbers,
-  title = {{{IIF Latest Numbers}}},
-  url = {https://www.bls.gov/iif/latest-numbers.htm},
-  urldate = {2025-03-10},
-  langid = {english},
-  organization = {Bureau of Labor Statistics},
-  file = {/Users/jiayeewong/Zotero/storage/5FF2NSMM/latest-numbers.html}
-}
-
-@online{NIOSHWorkerHealth2024,
-  title = {{{NIOSH Worker Health Charts}}},
-  date = {2024-02-12T11:57:02Z},
-  url = {https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False},
-  urldate = {2025-03-10},
-  abstract = {A charting tool for accessing work-related data.},
-  langid = {american},
-  file = {/Users/jiayeewong/Zotero/storage/6FVPNPH9/injury.html}
-}
 

@@ -37,7 +37,7 @@ Falls represent a major cost driver in both settings, but office falls (same lev
 ![Figure 2 shows the Midwest has both the highest median and most variable injury rates.](statecompare.png){fig-align="left" width="550"}
 
 | Region    | Average Rate | Median Rate | Number of States | Total Injuries (Thousands) |
-|:--------------|--------------:|--------------:|--------------:|--------------:|
+|:----------|-------------:|------------:|-----------------:|---------------------------:|
 | Midwest   |         82.1 |        81.8 |               12 |                    17559.2 |
 | Northeast |         78.4 |        76.3 |                8 |                    14637.4 |
 | West      |         76.3 |        79.0 |               12 |                    15210.3 |

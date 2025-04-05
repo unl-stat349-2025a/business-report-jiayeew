@@ -1,43 +1,23 @@
 [
   {
-    "objectID": "draft-data-doc.html",
-    "href": "draft-data-doc.html",
-    "title": "Appendix A — Draft: Data Documentation",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evaluation of Not Safe For Work",
     "section": "",
-    "text": "The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.\nThe data comes from two main sources:\n\nCensus of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics.\nSurvey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off.\n\nWhat the Data Includes:\n\nTypes of Injuries & Illnesses: Falls, sprains, back injuries, and more.\nIndustries Affected: Construction, healthcare, office jobs, and others.\nSeverity: Whether the injury was fatal or required time off work.\nWorker Details: Age, gender, and employment status.\nWork Environment: Indoor vs. outdoor jobs, high-risk workplaces.\nState Data: Number of injuries and illnesses by state, plus rates per 100 workers.\n\nHow the Data Is Collected & Used:\n\nThe Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards.\n\nCitation:\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results” (n.d.)\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results” (n.d.)\n“IIF Home” (n.d.)\n(IFLatestNumbers?)\n“NIOSH Worker Health Charts” (2024)\n\n\n\n\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results.” n.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results.” n.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” n.d. Bureau of Labor Statistics. Accessed March 10, 2025. https://www.bls.gov/iif/.\n\n\n“NIOSH Worker Health Charts.” 2024. February 12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.",
+    "text": "Preface\nYou are a data scientist for a mid-sized business, in a small group of 3-4 data scientists. You’ve been tasked with creating a report evaluating a scenario for your business. Your colleagues will also be evaluating the same scenario, and your reports will be used in aggregate to determine a consensus (or lack thereof) on the company’s action. The reports will also be used to inform downsizing that is rumored to be coming - you want to ensure your report is better than your peers so that you aren’t as easy to cut.\nYou may talk to your peers who are assigned the same scenario, but you do not want to collaborate too closely, lest you both become targets of the rumored layoffs.\n\nI’ve scaffolded this report for you to make this process easier - as we talk about different sections of a report in class and read about how to create similar sections, you will practice by writing the equivalent section of your report.\nThe basic steps for this task are as follows:\n\nIdentify the research question from the business question\nIdentify data set(s) which are (1) publicly available (you don’t have a budget to pay for private data) and (2) relevant to your task\n\n(HW Week 6) Document your data sets in draft-data-doc.qmd\n\nConduct a statistical analysis to support your answer to your research and business questions\n\nWrite a methods section for your business report corresponding to your statistical analysis\n(HW Week 9) Draft of results section of business report with relevant graphics/visual aids in draft-results.qmd\n\nWrite your report\n\n(HW Week 10) Draft of Intro/Conclusion sections in draft-intro-conclusions.qmd\n(HW Week 11) Draft of Executive summary section in draft-exec-summary.qmd\n\nRevise your report\n\n(HW Week 12 – not turned in) Revise your report\n(HW Week 13) - Rough draft of report due. Create one or more qmd files for your report (you can overwrite or delete intro.qmd and summary.qmd), include the names of each file (in order) in _quarto.yml. You should use references (edit references.bib and use pandoc citations). Make sure your report compiles and looks reasonable in both html and pdf.\nDevelop a presentation to go along with your report (Week 13). Create slides for your report using quarto.\n\nPeer revise reports\n\nPeer revise reports\n(HW Week 14) - Make edits to your report from comments received from peer review\n\nFinal report & presentation due",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "draft-intro-conclusions.html",
+    "href": "draft-intro-conclusions.html",
+    "title": "Appendix C — Draft: Intro/Conclusions",
+    "section": "",
+    "text": "D Introduction\nIn 2023, Amazon was fined $7,000 by OSHA following the death of a warehouse worker linked to unsafe conditions ((StaffFortWayneAmazon?)). The company also faced a $60,000 penalty for exposing employees to additional hazards ((PalmerAmazonCitedLabor?)), and has been the subject of over 50 OSHA investigations since 2020, with fines totaling more than $6 million (“Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times” (n.d.)). These incidents emphasize the real costs of workplace injuries, where employers face not only human tragedy but also legal liability and reputational damage. Nationally, U.S. businesses lose an estimated $167 billion annually due to workplace injuries (“Work Injury Costs” (n.d.)).\nWhile industrial settings often dominate safety conversations, office environments are frequently overlooked, despite accounting for 23.9% of preventable injury costs. This report explores whether office workers face greater injury risks than non-office workers, particularly in terms of injury frequency and cost. Using Bureau of Labor Statistics (BLS) data, I analyzed injury trends across workplace types and regions, identifying the most costly injury types, and examining where injury rates are highest.\nFindings revealed that while non-office settings have higher overall injury rates, office environments experience a disproportionate share of same-level falls, responsible for 17.2% of total injury costs. These results suggest that companies should reallocate safety resources toward office settings, possibly reducing liability exposure and overall costs despite common assumptions that non-office settings are riskier.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Data Documentation</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n(online?){CensusFatalOccupational, title = {Census of {{Fatal Occupational Injuries Summary}}, 2023 - 2023 {{A01 Results}}}, url = {https://www.bls.gov/news.release/cfoi.nr0.htm}, urldate = {2025-03-05}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/CYAKQ4PJ/cfoi.nr0.html} }\n(online?){EmployerReportedWorkplaceInjuries, title = {Employer-{{Reported Workplace Injuries}} and {{Illnesses}}, 2023 - 2023 {{A01 Results}}}, url = {https://www.bls.gov/news.release/osh.nr0.htm}, urldate = {2025-03-05}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/73EPJTYT/osh.nr0.html} }\n(online?){IIFHome, title = {{{IIF Home}}}, url = {https://www.bls.gov/iif/}, urldate = {2025-03-10}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/I8GRUP7W/iif.html} }\n(online?){IIFLatestNumbers, title = {{{IIF Latest Numbers}}}, url = {https://www.bls.gov/iif/latest-numbers.htm}, urldate = {2025-03-10}, langid = {english}, organization = {Bureau of Labor Statistics}, file = {/Users/jiayeewong/Zotero/storage/5FF2NSMM/latest-numbers.html} }\n(online?){NIOSHWorkerHealth2024, title = {{{NIOSH Worker Health Charts}}}, date = {2024-02-12T11:57:02Z}, url = {https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False}, urldate = {2025-03-10}, abstract = {A charting tool for accessing work-related data.}, langid = {american}, file = {/Users/jiayeewong/Zotero/storage/6FVPNPH9/injury.html} }",
-    "crumbs": [
-      "References"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Intro/Conclusions</span>"
     ]
   },
   {
@@ -74,14 +54,24 @@
     ]
   },
   {
-    "objectID": "draft-results.html#summary",
-    "href": "draft-results.html#summary",
-    "title": "Appendix B — Draft: Results",
-    "section": "B.3 Summary",
-    "text": "B.3 Summary\nOffice environments contribute 23.9% of injury costs, with same-level falls as the primary cause. Non-office environments account for 30.8% of injury costs, with falls to lower levels and being struck by objects as leading factors. Falls in offices are responsible for 21.2% of fall-related costs, more than double the 9.8% observed in non-office settings. Injury rates vary by region, but ANOVA results (p = 0.168) indicate no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) suggests no meaningful relationship between injury case volume and injury rate.",
+    "objectID": "draft-intro-conclusions.html#recommendations",
+    "href": "draft-intro-conclusions.html#recommendations",
+    "title": "Appendix C — Draft: Intro/Conclusions",
+    "section": "E.1 Recommendations",
+    "text": "E.1 Recommendations\nBased on the findings, I recommend the following:\n\nFall Prevention in Office Settings: Given the high proportion of fall-related costs in office environments, companies should invest in targeted fall prevention programs. These could include routine maintenance of flooring and employee education around slip and trip hazards.\nRegion-Specific Safety Assessments: Despite the lack of statistically significant regional differences, variation still exists at the state level. Businesses should consider conducting local assessments to tailor safety interventions to the specific risks and needs of each region.\n\n\n\n\n\n“Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times.” n.d. Accessed April 5, 2025. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\n“Work Injury Costs.” n.d. Injury Facts. Accessed April 5, 2025. https://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Intro/Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“Amazon Is Fined Nearly $6 Million Over\nWarehouse Work Quotas - The New York Times.”\nn.d. Accessed April 5, 2025. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\n“Census of Fatal Occupational Injuries Summary, 2023\n- 2023 A01 Results.” n.d. Bureau of Labor\nStatistics. Accessed March 5, 2025. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and\nIllnesses, 2023 - 2023 A01 Results.”\nn.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” n.d. Bureau of Labor Statistics.\nAccessed March 10, 2025. https://www.bls.gov/iif/.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n“NIOSH Worker Health Charts.” 2024. February\n12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.\n\n\n“Work Injury Costs.” n.d. Injury Facts.\nAccessed April 5, 2025. https://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
