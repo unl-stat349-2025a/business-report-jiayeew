@@ -175,8 +175,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#workplace-injury-costs-by-cause-and-environment" id="toc-workplace-injury-costs-by-cause-and-environment" class="nav-link active" data-scroll-target="#workplace-injury-costs-by-cause-and-environment"><span class="header-section-number">B.1</span> Workplace Injury Costs by Cause and Environment</a></li>
-  <li><a href="#regional-workplace-injury-trends" id="toc-regional-workplace-injury-trends" class="nav-link" data-scroll-target="#regional-workplace-injury-trends"><span class="header-section-number">B.2</span> Regional Workplace Injury Trends</a></li>
+  <li><a href="#comparing-injury-costs-between-office-and-non-office-environments" id="toc-comparing-injury-costs-between-office-and-non-office-environments" class="nav-link active" data-scroll-target="#comparing-injury-costs-between-office-and-non-office-environments"><span class="header-section-number">B.1</span> Comparing Injury Costs Between Office and Non-Office Environments</a></li>
+  <li><a href="#regional-and-state-level-injury-trends" id="toc-regional-and-state-level-injury-trends" class="nav-link" data-scroll-target="#regional-and-state-level-injury-trends"><span class="header-section-number">B.2</span> Regional and State-Level Injury Trends</a></li>
   </ul>
 </nav>
     </div>
@@ -202,17 +202,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>An analysis of workplace injury data reveals that office environments contribute 23.9% of total workplace injury costs, with same-level falls (17.2%) as the leading cause. In contrast, non-office settings account for a larger share (30.8%) of injury costs, primarily due to falls to lower levels (9.8%) and being struck by objects (9.6%).</p>
-<p>Geographically, workplace injury rates vary significantly. The Midwest reports the highest injury rate (82.1 per 100 workers), likely due to a concentration of labor-intensive industries. In contrast, Colorado has the lowest rate (5.5 per 100 workers), possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.</p>
-<section id="workplace-injury-costs-by-cause-and-environment" class="level2" data-number="B.1">
-<h2 data-number="B.1" class="anchored" data-anchor-id="workplace-injury-costs-by-cause-and-environment"><span class="header-section-number">B.1</span> Workplace Injury Costs by Cause and Environment</h2>
-<div class="quarto-figure quarto-figure-left">
+<section id="comparing-injury-costs-between-office-and-non-office-environments" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="comparing-injury-costs-between-office-and-non-office-environments"><span class="header-section-number">B.1</span> Comparing Injury Costs Between Office and Non-Office Environments</h2>
+<p>An analysis of workplace injury data reveals that office environments contribute for (23.88%) of total workplace injury costs, with same-level falls (17.21%) being the leading cause of injuries in office settings. In contrast, non-office environments represent a larger share of injury costs at (30.81%), primarily due to falls to lower levels (9.78%) and being struck by objects (9.56%).</p>
+<p>To determine whether these differences in injury cost proportions are statistically significant, I conducted a two-sample t-test. The results showed no significant difference between office and non-office environments, t(2.40) = 0.37, p = 0.74. lthough office environments had a higher average injury cost proportion (M = 7.96%, SD = 8.04) compared to non-office environments (M = 6.16%, SD = 3.26), the 95% confidence interval [-16.11, 19.71] includes zero, suggesting that the observed difference could be due to random chance and is not statistically significant.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="officecomparison.png" class="img-fluid figure-img" width="550"></p>
-<figcaption>Figure 1 highlights that office-related falls contribute more than twice the costs of non-office falls (21.2% vs.&nbsp;9.8%).</figcaption>
+<p><img src="draft-results_files/figure-html/office_comparison_plot-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 1: Causes of Workplace Injuries</figcaption>
 </figure>
 </div>
-<table class="caption-top table">
+</div>
+</div>
+<p>Figure 1 illustrates that office-related falls contribute more than twice the costs of non-office falls (21.23% vs.&nbsp;9.78%). This is consistent with the data presented in Table 1, which breaks down injury costs by cause and environment:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
 <caption>Table 1: Breakdown of Injury Costs by Cause and Work Environment.</caption>
 <thead>
 <tr class="header">
@@ -264,46 +271,93 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Falls represent a major cost driver in both settings, but office falls (same level + slips) account for 21.2% of fall-related costs, compared to 9.8% for non-office falls. This highlights the financial burden of seemingly minor but frequent office accidents.</p>
-<table class="caption-top table">
+</div>
+</div>
+<p>Falls, particularly same-level falls and slips in office environments, contribute significantly to injury costs. Office-related falls account for 21.23% of fall-related injury costs, compared to just 9.78% for non-office falls. This highlights the financial impact of seemingly minor but frequent office accidents.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
 <caption>Table 2: Fall-Related Injury Costs by Work Environment</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Environment</th>
 <th style="text-align: right;">Total % of Costs</th>
-<th style="text-align: right;">Proportion of Falls</th>
+<th style="text-align: right;">Proportion of Falls (%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Non-Office</td>
 <td style="text-align: right;">9.78</td>
-<td style="text-align: right;">32%</td>
+<td style="text-align: right;">31.54</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Office</td>
 <td style="text-align: right;">21.23</td>
-<td style="text-align: right;">68%</td>
+<td style="text-align: right;">68.46</td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+<p>Table 2 further illustrates that office environments contribute a larger proportion (68.46%) of fall-related injury costs, despite non-office environments accounting for a greater share of total injury costs.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Table 3: Injury Cost Distribution by Work Environment</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Environment</th>
+<th style="text-align: right;">Total %</th>
+<th style="text-align: right;">Average % per Cause</th>
+<th style="text-align: right;">Proportion of Total (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Non-Office</td>
+<td style="text-align: right;">30.81</td>
+<td style="text-align: right;">6.16</td>
+<td style="text-align: right;">56.34</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Office</td>
+<td style="text-align: right;">23.88</td>
+<td style="text-align: right;">7.96</td>
+<td style="text-align: right;">43.66</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Table 3 summarizes the overall distribution of injury costs by work environment. While non-office environments account for a larger share of total injury costs (30.81%), office environments have a higher average cost per injury cause (7.96% vs.&nbsp;6.16%). This suggests that although injuries in office settings may occur less frequently, they tend to be more expensive on a per-cause basis.</p>
 </section>
-<section id="regional-workplace-injury-trends" class="level2" data-number="B.2">
-<h2 data-number="B.2" class="anchored" data-anchor-id="regional-workplace-injury-trends"><span class="header-section-number">B.2</span> Regional Workplace Injury Trends</h2>
-<div class="quarto-figure quarto-figure-left">
+<section id="regional-and-state-level-injury-trends" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="regional-and-state-level-injury-trends"><span class="header-section-number">B.2</span> Regional and State-Level Injury Trends</h2>
+<p>Workplace injury rates shows significant geographic variation across the United States. The Midwest reports the highest injury rate at 82.12 per 100 workers, which may be due to the region’s concentration of labor-intensive industries. In contrast, the south has the lowest rate at 67.64 per 100 workers, possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.</p>
+<p>While injury rates vary across regions, a one-way ANOVA revealed no statistically significant differences in injury rates (p = 0.168), suggesting that regional variations in injury rates are not substantial enough to impact injury rates in a statistically meaningful way.</p>
+<p>I also conducted a Pearson correlation between total injury case volume and injury rates by state. The analysis found no significant correlation (r = -0.09, p = 0.553), indicating that states with higher total injury case volumes do not necessarily experience higher injury rates per 100 workers.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="statecompare.png" class="img-fluid figure-img" width="550"></p>
-<figcaption>Figure 2 shows the Midwest has both the highest median and most variable injury rates.</figcaption>
+<p><img src="draft-results_files/figure-html/state_comparison_plot-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 2: Comparison of Workplace Injury Rates Across Different States</figcaption>
 </figure>
 </div>
-<table class="caption-top table">
-<caption>Table 3: Workplace Injury Rates by Region</caption>
+</div>
+</div>
+<p>Figure 2 illustrates that the Midwest has both the highest median and the most variable injury rates across regions.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Table 4: Workplace Injury Rates by Region</caption>
 <colgroup>
-<col style="width: 13%">
+<col style="width: 12%">
 <col style="width: 16%">
 <col style="width: 15%">
 <col style="width: 21%">
-<col style="width: 33%">
+<col style="width: 34%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,44 +371,41 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Midwest</td>
-<td style="text-align: right;">82.1</td>
-<td style="text-align: right;">81.8</td>
+<td style="text-align: right;">82.12</td>
+<td style="text-align: right;">81.80</td>
 <td style="text-align: right;">12</td>
 <td style="text-align: right;">17559.2</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Northeast</td>
-<td style="text-align: right;">78.4</td>
-<td style="text-align: right;">76.3</td>
+<td style="text-align: right;">78.41</td>
+<td style="text-align: right;">76.35</td>
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">14637.4</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">West</td>
-<td style="text-align: right;">76.3</td>
-<td style="text-align: right;">79.0</td>
+<td style="text-align: right;">76.28</td>
+<td style="text-align: right;">79.00</td>
 <td style="text-align: right;">12</td>
 <td style="text-align: right;">15210.3</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">South</td>
-<td style="text-align: right;">67.6</td>
-<td style="text-align: right;">69.2</td>
+<td style="text-align: right;">67.64</td>
+<td style="text-align: right;">69.20</td>
 <td style="text-align: right;">15</td>
 <td style="text-align: right;">24878.8</td>
 </tr>
 </tbody>
 </table>
-<p>On the state level, Maine (116.3 per 100 workers) has the highest injury rate, over 20 times greater than Colorado (5.5 per 100 workers), which has the lowest. However, correlation analysis (r = -0.09, p = 0.553) indicates no significant relationship between case volume and injury rate, suggesting that higher total injury counts do not necessarily translate to higher rates at the state level.</p>
-<table class="caption-top table">
-<caption>Table 4: States with the Highest and Lowest Workplace Injury Rates</caption>
-<colgroup>
-<col style="width: 13%">
-<col style="width: 22%">
-<col style="width: 19%">
-<col style="width: 28%">
-<col style="width: 16%">
-</colgroup>
+</div>
+</div>
+<p>At the state level, Maine has the highest injury rate at 116.3 per 100 workers more than 20 times higher than Colorado’s rate of 5.5 per 100 workers, which is the lowest. Despite this difference, correlation analysis (r = -0.09, p = 0.553) suggests no significant relationship between injury case volume and injury rate, indicating that states with higher total injury counts do not necessarily have higher injury rates.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Table 5: States with the Highest and Lowest Workplace Injury Rates</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Rank</th>
@@ -437,6 +488,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
 
 </section>
