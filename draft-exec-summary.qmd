@@ -1,3 +1,11 @@
 ---
 title: "Draft: Executive Summary"
 ---
+
+This report analyzes workplace injury costs and trends across office and non-office environments, focusing on their financial impact and regional variations. The analysis examines the proportion of total injury costs attributed to each environment and identifies the leading causes of injury in both settings. Additionally, regional differences in injury rates are explored, along with the relationship between injury case volume and injury rates by state.
+
+The results indicate that non-office environments contribute a greater share of injury costs (30.81%) compared to office environments (23.88%). The office injuries are primarily due to same-level falls, while non-office injuries are mainly caused by falls to lower levels (9.78%) and being struck by objects (9.56%). Statistical analysis revealed no significant difference in injury cost proportions between the two environments. Regional injury rates vary, but ANOVA results (p = 0.168) showed no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) showed no significant correlation between injury case volume and injury rates at the state level.
+
+These results suggest that while non-office environments account for higher total injury costs, office-related injuries may be disproportionately expensive per incident. Addressing the cost impact of office-related injuries and examining regional variations in injury rates could provide guidance for improving workplace safety policies.
+
+In conclusion, this report highlights the need for targeted injury prevention strategies, especially in office environments, and calls for further investigation into regional safety practices to reduce disparities in injury rates.
