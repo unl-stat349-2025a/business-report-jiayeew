@@ -44,7 +44,7 @@ ggplot(classified_injuries,
   theme_minimal(base_size = 12) +
   theme(legend.position = "bottom")
 
-# Fall-Specific Analysis
+# fall-Specific Analysis
 fall_data <- classified_injuries %>%
   filter(str_detect(cause, "Falls|Slip")) %>%
   group_by(office_related) %>%
@@ -56,7 +56,7 @@ fall_data <- classified_injuries %>%
     prop_of_falls = total_percentage / sum(total_percentage)
   )
 
-#  Office vs Non-Office Comparison 
+#  office vs non-office comparison 
 comparison_stats <- classified_injuries %>%
   group_by(office_related) %>%
   summarize(
@@ -68,8 +68,24 @@ comparison_stats <- classified_injuries %>%
     prop_of_total = total_percentage / sum(total_percentage)
   )
 
+# extract percentage values for each group
+office_percentages <- classified_injuries %>% 
+  filter(office_related == "Office") %>% 
+  pull(percentage)
 
-# Classified Injuries Only
+non_office_percentages <- classified_injuries %>% 
+  filter(office_related == "Non-Office") %>% 
+  pull(percentage)
+
+# perform t-test
+t_test_result <- t.test(office_percentages, non_office_percentages)
+
+# print results
+cat("\n--- t-Test Results: Office vs. Non-Office Injury Costs ---\n")
+print(t_test_result)
+
+
+# classified injuries only
 classified_injuries %>%
   arrange(desc(percentage)) %>%
   select(cause, percentage, office_related) %>%
@@ -79,7 +95,7 @@ classified_injuries %>%
     digits = 2
   )
 
-#  Fall Injury Comparison
+#  fall injury comparison
 fall_data %>%
   select(-n_types) %>%
   kable(
@@ -88,7 +104,7 @@ fall_data %>%
     digits = 2
   )
 
-# Table 3: Overall Comparison
+# overall comparison
 comparison_stats %>%
   select(-n_causes) %>%
   kable(

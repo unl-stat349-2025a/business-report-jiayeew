@@ -1,0 +1,43 @@
+# Data & Methodology
+
+The analysis uses publicly available datasets from the U.S. Bureau of Labor Statistics (BLS) and the Centers for Disease Control and Prevention (CDC), covering workplace injuries, illnesses, and fatalities between 2019 and 2023.
+
+## Data Sources
+
+-   **Census of Fatal Occupational Injuries (CFOI)**: Tracks fatal workplace injuries by cause of death, industry, and worker demographics @CensusFatalOccupational.
+
+-   **Survey of Occupational Injuries and Illnesses (SOII)**: Reports nonfatal workplace injuries and illnesses, including the nature of each injury and the amount of time off required @EmployerReportedWorkplaceInjuries.
+
+-   **CDC State-by-State Occupational Health Data**: Provides state-level injury and illness rates per 100 full-time workers, supporting geographic comparisons of workplace risks @NIOSHWorkerHealth2024.
+
+## Data Features
+
+The datasets include information on:
+
+-   **Injury Types**: Falls, sprains, back injuries, and other common workplace incidents.
+
+-   **Industry Categories**: Covers a range of sectors such as construction, healthcare, and office-based occupations.
+
+-   **Severity**: Distinguishes between fatal and nonfatal incidents, including the extent of injury and time away from work.
+
+-   **Worker Demographics**: Captures data on age, gender, and employment status.
+
+-   **Work Environment**: Differentiates between indoor and outdoor settings, as well as high-risk and low-risk workplaces.
+
+-   **Geography**: Provides state-level injury and illness counts, along with standardized rates per 100 full-time workers.
+
+## Collection and Verification
+
+The BLS compiles and verifies data using reports from OSHA, NIOSH, and various state labor departments. These datasets are intended to support occupational safety research, inform policy development, and promote public awareness initiatives @IIFLatestNumbers; @IIFHome.
+
+## Analytical Approach
+
+To identify trends and assess injury risks:
+
+-   Proportions of injury costs were calculated by environment type (office vs. non-office).
+
+-   A t-test was conducted to evaluate whether the differences in injury cost proportions between office and non-office settings were statistically significant.
+
+-   ANOVA was used to test for significant differences in injury rates across regions.
+
+-   Pearson correlation was used to assess the relationship between injury case volume and injury rates at the state level.

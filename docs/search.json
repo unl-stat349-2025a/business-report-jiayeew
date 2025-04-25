@@ -12,23 +12,23 @@
   {
     "objectID": "draft-intro-conclusions.html",
     "href": "draft-intro-conclusions.html",
-    "title": "Appendix C — Draft: Intro/Conclusions",
+    "title": "Appendix B — Draft: Introductions",
     "section": "",
-    "text": "D Introduction\nIn 2023, Amazon was fined $7,000 by OSHA following the death of a warehouse worker linked to unsafe conditions Staff and Bebout (2023). The company also faced a $60,000 penalty for exposing employees to additional hazards Palmer (2023), and has been the subject of over 50 OSHA investigations since 2020, with fines totaling more than $6 million “Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times” (n.d.). These incidents emphasize the real costs of workplace injuries, where employers face not only human tragedy but also legal liability and reputational damage. Nationally, U.S. businesses lose an estimated $167 billion annually due to workplace injuries “Work Injury Costs” (n.d.).\nWhile industrial settings often dominate safety conversations, office environments are frequently overlooked, despite accounting for 23.9% of preventable injury costs. This report explores whether office workers face greater injury risks than non-office workers, particularly in terms of injury frequency and cost. Using Bureau of Labor Statistics (BLS) data, I analyzed injury trends across workplace types and regions, identifying the most costly injury types, and examining where injury rates are highest.\nFindings revealed that while non-office settings have higher overall injury rates, office environments experience a disproportionate share of same-level falls, responsible for 17.2% of total injury costs. These results suggest that companies should reallocate safety resources toward office settings, possibly reducing liability exposure and overall costs despite common assumptions that non-office settings are riskier.",
+    "text": "C Introduction\nIn 2023, Amazon was fined $7,000 by OSHA following the death of a warehouse worker linked to unsafe conditions Staff and Bebout (2023). The company also faced a $60,000 penalty for exposing employees to additional hazards Palmer (2023), and has been the subject of over 50 OSHA investigations since 2020, with fines totaling more than $6 million “Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times” (2024). These incidents emphasize the real costs of workplace injuries, where employers face not only human tragedy but also legal liability and reputational damage. Nationally, U.S. businesses lose an estimated $167 billion annually due to workplace injuries “Work Injury Costs” (2025).\nWhile industrial settings often dominate safety conversations, office environments are frequently overlooked, despite accounting for 23.9% of preventable injury costs. This report explores whether office workers face greater injury risks than non-office workers, particularly in terms of injury frequency and cost. Using Bureau of Labor Statistics (BLS) data, I analyzed injury trends across workplace types and regions, identifying the most costly injury types, and examining where injury rates are highest.\nFindings revealed that while non-office settings have higher overall injury rates, office environments experience a disproportionate share of same-level falls, responsible for 17.2% of total injury costs. These results suggest that companies should reallocate safety resources toward office settings, possibly reducing liability exposure and overall costs despite common assumptions that non-office settings are riskier.\n\n\n\n\n“Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times.” 2024. June 18, 2024. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\nPalmer, Annie. 2023. “Amazon Cited by Labor Department for Exposing Warehouse Workers to Safety Hazards.” CNBC. https://www.cnbc.com/2023/01/18/amazon-cited-by-osha-for-exposing-warehouse-workers-to-safety-hazards.html.\n\n\nStaff, WPTA, and Jazlynn Bebout. 2023. “Fort Wayne Amazon Facility Fined for Safety Violation Leading to 20-Year-Old Worker’s Death.” https://www.21alivenews.com. November 28, 2023. https://www.21alivenews.com/2023/11/28/fort-wayne-amazon-facility-fined-safety-violation-leading-20-year-old-workers-death/.\n\n\n“Work Injury Costs.” 2025. Injury Facts. 2025. https://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Intro/Conclusions</span>"
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Introductions</span>"
     ]
   },
   {
     "objectID": "draft-results.html",
     "href": "draft-results.html",
-    "title": "Appendix B — Draft: Results",
+    "title": "Appendix D — Draft: Results",
     "section": "",
-    "text": "B.1 Comparing Injury Costs Between Office and Non-Office Environments\nAn analysis of workplace injury data reveals that office environments contribute for (23.88%) of total workplace injury costs, with same-level falls (17.21%) being the leading cause of injuries in office settings. In contrast, non-office environments represent a larger share of injury costs at (30.81%), primarily due to falls to lower levels (9.78%) and being struck by objects (9.56%).\nTo determine whether these differences in injury cost proportions are statistically significant, I conducted a two-sample t-test. The results showed no significant difference between office and non-office environments, t(2.40) = 0.37, p = 0.74. lthough office environments had a higher average injury cost proportion (M = 7.96%, SD = 8.04) compared to non-office environments (M = 6.16%, SD = 3.26), the 95% confidence interval [-16.11, 19.71] includes zero, suggesting that the observed difference could be due to random chance and is not statistically significant.\nFigure 1: Causes of Workplace Injuries\nFigure 1 illustrates that office-related falls contribute more than twice the costs of non-office falls (21.23% vs. 9.78%). This is consistent with the data presented in Table 1, which breaks down injury costs by cause and environment:\nTable 1: Breakdown of Injury Costs by Cause and Work Environment.\n\n\nInjury Cause\n% of Costs\nEnvironment\n\n\n\n\nFalls on same level\n17.21\nOffice\n\n\nFalls to lower level\n9.78\nNon-Office\n\n\nStruck by object or equipment\n9.56\nNon-Office\n\n\nRoadway incidents\n4.76\nNon-Office\n\n\nSlip or trip without fall\n4.02\nOffice\n\n\nCaught in equipment\n3.54\nNon-Office\n\n\nStruck against object\n3.17\nNon-Office\n\n\nRepetitive motions\n2.65\nOffice\nFalls, particularly same-level falls and slips in office environments, contribute significantly to injury costs. Office-related falls account for 21.23% of fall-related injury costs, compared to just 9.78% for non-office falls. This highlights the financial impact of seemingly minor but frequent office accidents.\nTable 2: Fall-Related Injury Costs by Work Environment\n\n\nEnvironment\nTotal % of Costs\nProportion of Falls (%)\n\n\n\n\nNon-Office\n9.78\n31.54\n\n\nOffice\n21.23\n68.46\nTable 2 further illustrates that office environments contribute a larger proportion (68.46%) of fall-related injury costs, despite non-office environments accounting for a greater share of total injury costs.\nTable 3: Injury Cost Distribution by Work Environment\n\n\nEnvironment\nTotal %\nAverage % per Cause\nProportion of Total (%)\n\n\n\n\nNon-Office\n30.81\n6.16\n56.34\n\n\nOffice\n23.88\n7.96\n43.66\nTable 3 summarizes the overall distribution of injury costs by work environment. While non-office environments account for a larger share of total injury costs (30.81%), office environments have a higher average cost per injury cause (7.96% vs. 6.16%). This suggests that although injuries in office settings may occur less frequently, they tend to be more expensive on a per-cause basis.",
+    "text": "D.1 Comparing Injury Costs Between Office and Non-Office Environments\nAn analysis of workplace injury data reveals that office environments contribute for (23.88%) of total workplace injury costs, with same-level falls (17.21%) being the leading cause of injuries in office settings. In contrast, non-office environments represent a larger share of injury costs at (30.81%), primarily due to falls to lower levels (9.78%) and being struck by objects (9.56%).\nTo determine whether these differences in injury cost proportions are statistically significant, I conducted a two-sample t-test. The results showed no significant difference between office and non-office environments, t(2.40) = 0.37, p = 0.74. lthough office environments had a higher average injury cost proportion (M = 7.96%, SD = 8.04) compared to non-office environments (M = 6.16%, SD = 3.26), the 95% confidence interval [-16.11, 19.71] includes zero, suggesting that the observed difference could be due to random chance and is not statistically significant.\nFigure 1: Causes of Workplace Injuries\nFigure 1 illustrates that office-related falls contribute more than twice the costs of non-office falls (21.23% vs. 9.78%). This is consistent with the data presented in Table 1, which breaks down injury costs by cause and environment:\nTable 1: Breakdown of Injury Costs by Cause and Work Environment.\n\n\nInjury Cause\n% of Costs\nEnvironment\n\n\n\n\nFalls on same level\n17.21\nOffice\n\n\nFalls to lower level\n9.78\nNon-Office\n\n\nStruck by object or equipment\n9.56\nNon-Office\n\n\nRoadway incidents\n4.76\nNon-Office\n\n\nSlip or trip without fall\n4.02\nOffice\n\n\nCaught in equipment\n3.54\nNon-Office\n\n\nStruck against object\n3.17\nNon-Office\n\n\nRepetitive motions\n2.65\nOffice\nFalls, particularly same-level falls and slips in office environments, contribute significantly to injury costs. Office-related falls account for 21.23% of fall-related injury costs, compared to just 9.78% for non-office falls. This highlights the financial impact of seemingly minor but frequent office accidents.\nTable 2: Fall-Related Injury Costs by Work Environment\n\n\nEnvironment\nTotal % of Costs\nProportion of Falls (%)\n\n\n\n\nNon-Office\n9.78\n31.54\n\n\nOffice\n21.23\n68.46\nTable 2 further illustrates that office environments contribute a larger proportion (68.46%) of fall-related injury costs, despite non-office environments accounting for a greater share of total injury costs.\nTable 3: Injury Cost Distribution by Work Environment\n\n\nEnvironment\nTotal %\nAverage % per Cause\nProportion of Total (%)\n\n\n\n\nNon-Office\n30.81\n6.16\n56.34\n\n\nOffice\n23.88\n7.96\n43.66\nTable 3 summarizes the overall distribution of injury costs by work environment. While non-office environments account for a larger share of total injury costs (30.81%), office environments have a higher average cost per injury cause (7.96% vs. 6.16%). This suggests that although injuries in office settings may occur less frequently, they tend to be more expensive on a per-cause basis.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Results</span>"
     ]
   },
   {
@@ -69,7 +69,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "“Amazon Is Fined Nearly $6 Million Over\nWarehouse Work Quotas - The New York Times.”\nn.d. Accessed April 5, 2025. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\n“Census of Fatal Occupational Injuries Summary, 2023\n- 2023 A01 Results.” n.d. Bureau of Labor\nStatistics. Accessed March 5, 2025. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and\nIllnesses, 2023 - 2023 A01 Results.”\nn.d. Bureau of Labor Statistics. Accessed March 5, 2025. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” n.d. Bureau of Labor Statistics.\nAccessed March 10, 2025. https://www.bls.gov/iif/.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n“NIOSH Worker Health Charts.” 2024. February\n12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.\n\n\n“Work Injury Costs.” n.d. Injury Facts.\nAccessed April 5, 2025. https://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
+    "text": "“Amazon Is Fined Nearly $6 Million Over\nWarehouse Work Quotas - The New York Times.”\n2024. June 18, 2024. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\n“Census of Fatal Occupational Injuries Summary, 2023\n- 2023 A01 Results.” 2024. Bureau of Labor\nStatistics. December 19, 2024. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and\nIllnesses, 2023 - 2023 A01 Results.”\n2024. Bureau of Labor Statistics. November 8, 2024. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” 2024. Bureau of Labor Statistics.\n2024. https://www.bls.gov/iif/.\n\n\n“IIF Latest Numbers.” 2024. Bureau of Labor\nStatistics. 2024. https://www.bls.gov/iif/latest-numbers.htm.\n\n\n“NIOSH Worker Health Charts.” 2024. February\n12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.\n\n\nPalmer, Annie. 2023. “Amazon Cited by Labor\nDepartment for Exposing Warehouse Workers to Safety\nHazards.” CNBC.\nhttps://www.cnbc.com/2023/01/18/amazon-cited-by-osha-for-exposing-warehouse-workers-to-safety-hazards.html.\n\n\nStaff, WPTA, and Jazlynn Bebout. 2023. “Fort Wayne\nAmazon Facility Fined for Safety Violation Leading to 20-Year-Old\nWorker’s Death.” https://www.21alivenews.com. November 28, 2023.\nhttps://www.21alivenews.com/2023/11/28/fort-wayne-amazon-facility-fined-safety-violation-leading-20-year-old-workers-death/.\n\n\n“Work Injury Costs.” 2025. Injury Facts. 2025.\nhttps://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
     "crumbs": [
       "References"
     ]
@@ -88,23 +88,216 @@
   {
     "objectID": "draft-results.html#regional-and-state-level-injury-trends",
     "href": "draft-results.html#regional-and-state-level-injury-trends",
-    "title": "Appendix B — Draft: Results",
-    "section": "B.2 Regional and State-Level Injury Trends",
-    "text": "B.2 Regional and State-Level Injury Trends\nWorkplace injury rates shows significant geographic variation across the United States. The Midwest reports the highest injury rate at 82.12 per 100 workers, which may be due to the region’s concentration of labor-intensive industries. In contrast, the south has the lowest rate at 67.64 per 100 workers, possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.\nWhile injury rates vary across regions, a one-way ANOVA revealed no statistically significant differences in injury rates (p = 0.168), suggesting that regional variations in injury rates are not substantial enough to impact injury rates in a statistically meaningful way.\nI also conducted a Pearson correlation between total injury case volume and injury rates by state. The analysis found no significant correlation (r = -0.09, p = 0.553), indicating that states with higher total injury case volumes do not necessarily experience higher injury rates per 100 workers.\n\n\n\n\n\nFigure 2: Comparison of Workplace Injury Rates Across Different States\n\n\n\n\nFigure 2 illustrates that the Midwest has both the highest median and the most variable injury rates across regions.\n\n\n\nTable 4: Workplace Injury Rates by Region\n\n\n\n\n\n\n\n\n\nRegion\nAverage Rate\nMedian Rate\nNumber of States\nTotal Injuries (Thousands)\n\n\n\n\nMidwest\n82.12\n81.80\n12\n17559.2\n\n\nNortheast\n78.41\n76.35\n8\n14637.4\n\n\nWest\n76.28\n79.00\n12\n15210.3\n\n\nSouth\n67.64\n69.20\n15\n24878.8\n\n\n\n\n\nAt the state level, Maine has the highest injury rate at 116.3 per 100 workers more than 20 times higher than Colorado’s rate of 5.5 per 100 workers, which is the lowest. Despite this difference, correlation analysis (r = -0.09, p = 0.553) suggests no significant relationship between injury case volume and injury rate, indicating that states with higher total injury counts do not necessarily have higher injury rates.\n\n\n\nTable 5: States with the Highest and Lowest Workplace Injury Rates\n\n\nRank\nState\nInjury Rate\nCases (Thousands)\nRegion\n\n\n\n\nLowest\nMassachusetts\n58.0\n1349.6\nNortheast\n\n\nLowest\nGeorgia\n53.9\n1543.7\nSouth\n\n\nLowest\nLouisiana\n49.2\n656.3\nSouth\n\n\nLowest\nFlorida\n33.4\n1776.2\nSouth\n\n\nLowest\nColorado\n5.5\n107.5\nWest\n\n\nHighest\nMaine\n116.3\n459.8\nNortheast\n\n\nHighest\nMontana\n104.8\n292.8\nWest\n\n\nHighest\nWest Virginia\n96.2\n543.2\nSouth\n\n\nHighest\nAlaska\n93.0\n186.9\nWest\n\n\nHighest\nIowa\n92.7\n961.2\nMidwest",
+    "title": "Appendix D — Draft: Results",
+    "section": "D.2 Regional and State-Level Injury Trends",
+    "text": "D.2 Regional and State-Level Injury Trends\nWorkplace injury rates shows significant geographic variation across the United States. The Midwest reports the highest injury rate at 82.12 per 100 workers, which may be due to the region’s concentration of labor-intensive industries. In contrast, the south has the lowest rate at 67.64 per 100 workers, possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.\nWhile injury rates vary across regions, a one-way ANOVA revealed no statistically significant differences in injury rates (p = 0.168), suggesting that regional variations in injury rates are not substantial enough to impact injury rates in a statistically meaningful way.\nI also conducted a Pearson correlation between total injury case volume and injury rates by state. The analysis found no significant correlation (r = -0.09, p = 0.553), indicating that states with higher total injury case volumes do not necessarily experience higher injury rates per 100 workers.\n\n\n\n\n\nFigure 2: Comparison of Workplace Injury Rates Across Different States\n\n\n\n\nFigure 2 illustrates that the Midwest has both the highest median and the most variable injury rates across regions.\n\n\n\nTable 4: Workplace Injury Rates by Region\n\n\n\n\n\n\n\n\n\nRegion\nAverage Rate\nMedian Rate\nNumber of States\nTotal Injuries (Thousands)\n\n\n\n\nMidwest\n82.12\n81.80\n12\n17559.2\n\n\nNortheast\n78.41\n76.35\n8\n14637.4\n\n\nWest\n76.28\n79.00\n12\n15210.3\n\n\nSouth\n67.64\n69.20\n15\n24878.8\n\n\n\n\n\nAt the state level, Maine has the highest injury rate at 116.3 per 100 workers more than 20 times higher than Colorado’s rate of 5.5 per 100 workers, which is the lowest. Despite this difference, correlation analysis (r = -0.09, p = 0.553) suggests no significant relationship between injury case volume and injury rate, indicating that states with higher total injury counts do not necessarily have higher injury rates.\n\n\n\nTable 5: States with the Highest and Lowest Workplace Injury Rates\n\n\nRank\nState\nInjury Rate\nCases (Thousands)\nRegion\n\n\n\n\nLowest\nMassachusetts\n58.0\n1349.6\nNortheast\n\n\nLowest\nGeorgia\n53.9\n1543.7\nSouth\n\n\nLowest\nLouisiana\n49.2\n656.3\nSouth\n\n\nLowest\nFlorida\n33.4\n1776.2\nSouth\n\n\nLowest\nColorado\n5.5\n107.5\nWest\n\n\nHighest\nMaine\n116.3\n459.8\nNortheast\n\n\nHighest\nMontana\n104.8\n292.8\nWest\n\n\nHighest\nWest Virginia\n96.2\n543.2\nSouth\n\n\nHighest\nAlaska\n93.0\n186.9\nWest\n\n\nHighest\nIowa\n92.7\n961.2\nMidwest",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Draft: Results</span>"
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Results</span>"
     ]
   },
   {
     "objectID": "draft-exec-summary.html",
     "href": "draft-exec-summary.html",
-    "title": "Appendix D — Draft: Executive Summary",
+    "title": "Appendix A — Draft: Executive Summary",
     "section": "",
     "text": "This report analyzes workplace injury costs and trends across office and non-office environments, focusing on their financial impact and regional variations. The analysis examines the proportion of total injury costs attributed to each environment and identifies the leading causes of injury in both settings. Additionally, regional differences in injury rates are explored, along with the relationship between injury case volume and injury rates by state.\nThe results indicate that non-office environments contribute a greater share of injury costs (30.81%) compared to office environments (23.88%). The office injuries are primarily due to same-level falls, while non-office injuries are mainly caused by falls to lower levels (9.78%) and being struck by objects (9.56%). Statistical analysis revealed no significant difference in injury cost proportions between the two environments. Regional injury rates vary, but ANOVA results (p = 0.168) showed no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) showed no significant correlation between injury case volume and injury rates at the state level.\nThese results suggest that while non-office environments account for higher total injury costs, office-related injuries may be disproportionately expensive per incident. Addressing the cost impact of office-related injuries and examining regional variations in injury rates could provide guidance for improving workplace safety policies.\nIn conclusion, this report highlights the need for targeted injury prevention strategies, especially in office environments, and calls for further investigation into regional safety practices to reduce disparities in injury rates.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Draft: Executive Summary</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Draft: Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introductions",
+    "section": "",
+    "text": "In 2023, Amazon was fined $7,000 by OSHA following the death of a warehouse worker linked to unsafe conditions Staff and Bebout (2023). The company also faced a $60,000 penalty for exposing employees to additional hazards Palmer (2023), and has been the subject of over 50 OSHA investigations since 2020, with fines totaling more than $6 million “Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times” (2024). These incidents emphasize the real costs of workplace injuries, where employers face not only human tragedy but also legal liability and reputational damage. Nationally, U.S. businesses lose an estimated $167 billion annually due to workplace injuries “Work Injury Costs” (2025).\nWhile industrial settings often dominate safety conversations, office environments are frequently overlooked, despite accounting for 23.9% of preventable injury costs. This report explores whether office workers face greater injury risks than non-office workers, particularly in terms of injury frequency and cost. Using Bureau of Labor Statistics (BLS) data, I analyzed injury trends across workplace types and regions, identifying the most costly injury types, and examining where injury rates are highest.\nFindings revealed that while non-office settings have higher overall injury rates, office environments experience a disproportionate share of same-level falls, responsible for 17.2% of total injury costs. These results suggest that companies should reallocate safety resources toward office settings, possibly reducing liability exposure and overall costs despite common assumptions that non-office settings are riskier.\n\n\n\n\n“Amazon Is Fined Nearly $6 Million Over Warehouse Work Quotas - The New York Times.” 2024. June 18, 2024. https://www.nytimes.com/2024/06/18/business/economy/amazon-california-productivity-quota.html.\n\n\nPalmer, Annie. 2023. “Amazon Cited by Labor Department for Exposing Warehouse Workers to Safety Hazards.” CNBC. https://www.cnbc.com/2023/01/18/amazon-cited-by-osha-for-exposing-warehouse-workers-to-safety-hazards.html.\n\n\nStaff, WPTA, and Jazlynn Bebout. 2023. “Fort Wayne Amazon Facility Fined for Safety Violation Leading to 20-Year-Old Worker’s Death.” https://www.21alivenews.com. November 28, 2023. https://www.21alivenews.com/2023/11/28/fort-wayne-amazon-facility-fined-safety-violation-leading-20-year-old-workers-death/.\n\n\n“Work Injury Costs.” 2025. Injury Facts. 2025. https://injuryfacts.nsc.org/work/costs/work-injury-costs/.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introductions</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "1  Executive Summary",
+    "section": "",
+    "text": "1.1 Overview\nThis report analyzes workplace injury costs and trends across office and non-office environments, focusing on their financial impact and regional variations. The analysis examines the proportion of total injury costs attributed to each environment and identifies the leading causes of injury in both settings. Additionally, regional differences in injury rates are explored, along with the relationship between injury case volume and injury rates by state.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "5  Conclusions",
+    "section": "",
+    "text": "This analysis examined injury costs and risks in both office and non-office environments, as well as regional variations in injury rates. The findings show that office environments account for 23.9% of injury costs, while non-office environments contribute 30.8%. Falls are the leading cause of injury in both environments, with office settings bearing a disproportionate share of fall-related costs at 21.2%, compared to 9.8% in non-office environments. Although regional injury rates varied, ANOVA results indicated no statistically significant differences. Maine had the highest injury rate, while Colorado had the lowest. Additionally, the correlation analysis showed no meaningful relationship between injury volume and injury rate.\nWhile informative, this study has limitations, primarily due to the scope and limitations of publicly available data. The dataset may not fully capture unreported incidents, variations in workplace practices across industries, or inconsistencies in data collection. Future research could assess the effectiveness of safety policies, the quality of their implementation, and other factors influencing injury rates. Expanding the dataset to include more variables and detailed industry breakdowns would offer a more comprehensive understanding of injury risks.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "conclusion.html#recommendations",
+    "href": "conclusion.html#recommendations",
+    "title": "5  Conclusion",
+    "section": "",
+    "text": "Fall Prevention in Office Settings: Given the high proportion of fall-related costs in office environments, companies should invest in targeted fall prevention programs. These could include routine maintenance of flooring and employee education around slip and trip hazards.\nRegion-Specific Safety Assessments: Despite the lack of statistically significant regional differences, variation still exists at the state level. Businesses should consider conducting local assessments to tailor safety interventions to the specific risks and needs of each region.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "4  Results",
+    "section": "",
+    "text": "4.1 Comparing Injury Costs Between Office and Non-Office Environments\nAn analysis of workplace injury data reveals that office environments contribute for (23.88%) of total workplace injury costs, with same-level falls (17.21%) being the leading cause of injuries in office settings. In contrast, non-office environments represent a larger share of injury costs at (30.81%), primarily due to falls to lower levels (9.78%) and being struck by objects (9.56%).\nTo determine whether these differences in injury cost proportions are statistically significant, I conducted a two-sample t-test. The results showed no significant difference between office and non-office environments, t(2.40) = 0.37, p = 0.74. lthough office environments had a higher average injury cost proportion (M = 7.96%, SD = 8.04) compared to non-office environments (M = 6.16%, SD = 3.26), the 95% confidence interval [-16.11, 19.71] includes zero, suggesting that the observed difference could be due to random chance and is not statistically significant.\nFigure 1: Causes of Workplace Injuries\nFigure 1 illustrates that office-related falls contribute more than twice the costs of non-office falls (21.23% vs. 9.78%). This is consistent with the data presented in Table 1, which breaks down injury costs by cause and environment:\nTable 1: Breakdown of Injury Costs by Cause and Work Environment.\n\n\nInjury Cause\n% of Costs\nEnvironment\n\n\n\n\nFalls on same level\n17.21\nOffice\n\n\nFalls to lower level\n9.78\nNon-Office\n\n\nStruck by object or equipment\n9.56\nNon-Office\n\n\nRoadway incidents\n4.76\nNon-Office\n\n\nSlip or trip without fall\n4.02\nOffice\n\n\nCaught in equipment\n3.54\nNon-Office\n\n\nStruck against object\n3.17\nNon-Office\n\n\nRepetitive motions\n2.65\nOffice\nFalls, particularly same-level falls and slips in office environments, contribute significantly to injury costs. Office-related falls account for 21.23% of fall-related injury costs, compared to just 9.78% for non-office falls. This highlights the financial impact of seemingly minor but frequent office accidents.\nTable 2: Fall-Related Injury Costs by Work Environment\n\n\nEnvironment\nTotal % of Costs\nProportion of Falls (%)\n\n\n\n\nNon-Office\n9.78\n31.54\n\n\nOffice\n21.23\n68.46\nTable 2 further illustrates that office environments contribute a larger proportion (68.46%) of fall-related injury costs, despite non-office environments accounting for a greater share of total injury costs.\nTable 3: Injury Cost Distribution by Work Environment\n\n\nEnvironment\nTotal %\nAverage % per Cause\nProportion of Total (%)\n\n\n\n\nNon-Office\n30.81\n6.16\n56.34\n\n\nOffice\n23.88\n7.96\n43.66\nTable 3 summarizes the overall distribution of injury costs by work environment. While non-office environments account for a larger share of total injury costs (30.81%), office environments have a higher average cost per injury cause (7.96% vs. 6.16%). This suggests that although injuries in office settings may occur less frequently, they tend to be more expensive on a per-cause basis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "results.html#regional-and-state-level-injury-trends",
+    "href": "results.html#regional-and-state-level-injury-trends",
+    "title": "4  Results",
+    "section": "4.2 Regional and State-Level Injury Trends",
+    "text": "4.2 Regional and State-Level Injury Trends\nWorkplace injury rates shows significant geographic variation across the United States. The Midwest reports the highest injury rate at 82.12 per 100 workers, which may be due to the region’s concentration of labor-intensive industries. In contrast, the south has the lowest rate at 67.64 per 100 workers, possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.\nWhile injury rates vary across regions, a one-way ANOVA revealed no statistically significant differences in injury rates (p = 0.168), suggesting that regional variations in injury rates are not substantial enough to impact injury rates in a statistically meaningful way.\nI also conducted a Pearson correlation between total injury case volume and injury rates by state. The analysis found no significant correlation (r = -0.09, p = 0.553), indicating that states with higher total injury case volumes do not necessarily experience higher injury rates per 100 workers.\n\n\n\n\n\nFigure 2: Comparison of Workplace Injury Rates Across Different States\n\n\n\n\nFigure 2 illustrates that the Midwest has both the highest median and the most variable injury rates across regions.\n\n\n\nTable 4: Workplace Injury Rates by Region\n\n\n\n\n\n\n\n\n\nRegion\nAverage Rate\nMedian Rate\nNumber of States\nTotal Injuries (Thousands)\n\n\n\n\nMidwest\n82.12\n81.80\n12\n17559.2\n\n\nNortheast\n78.41\n76.35\n8\n14637.4\n\n\nWest\n76.28\n79.00\n12\n15210.3\n\n\nSouth\n67.64\n69.20\n15\n24878.8\n\n\n\n\n\nAt the state level, Maine has the highest injury rate at 116.3 per 100 workers more than 20 times higher than Colorado’s rate of 5.5 per 100 workers, which is the lowest. Despite this difference, correlation analysis (r = -0.09, p = 0.553) suggests no significant relationship between injury case volume and injury rate, indicating that states with higher total injury counts do not necessarily have higher injury rates.\n\n\n\nTable 5: States with the Highest and Lowest Workplace Injury Rates\n\n\nRank\nState\nInjury Rate\nCases (Thousands)\nRegion\n\n\n\n\nLowest\nMassachusetts\n58.0\n1349.6\nNortheast\n\n\nLowest\nGeorgia\n53.9\n1543.7\nSouth\n\n\nLowest\nLouisiana\n49.2\n656.3\nSouth\n\n\nLowest\nFlorida\n33.4\n1776.2\nSouth\n\n\nLowest\nColorado\n5.5\n107.5\nWest\n\n\nHighest\nMaine\n116.3\n459.8\nNortheast\n\n\nHighest\nMontana\n104.8\n292.8\nWest\n\n\nHighest\nWest Virginia\n96.2\n543.2\nSouth\n\n\nHighest\nAlaska\n93.0\n186.9\nWest\n\n\nHighest\nIowa\n92.7\n961.2\nMidwest",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Results</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#analysis",
+    "href": "summary.html#analysis",
+    "title": "1  Executive Summary",
+    "section": "1.2 Analysis",
+    "text": "1.2 Analysis\nThe results indicate that non-office environments contribute a greater share of injury costs (30.81%) compared to office environments (23.88%). The office injuries are primarily due to same-level falls, while non-office injuries are mainly caused by falls to lower levels (9.78%) and being struck by objects (9.56%). Statistical analysis revealed no significant difference in injury cost proportions between the two environments. Regional injury rates vary, but ANOVA results (p = 0.168) showed no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) showed no significant correlation between injury case volume and injury rates at the state level.\nThese results suggest that while non-office environments account for higher total injury costs, office-related injuries may be disproportionately expensive per incident. Addressing the cost impact of office-related injuries and examining regional variations in injury rates could provide guidance for improving workplace safety policies.\nIn conclusion, this report highlights the need for targeted injury prevention strategies, especially in office environments, and calls for further investigation into regional safety practices to reduce disparities in injury rates.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#results-summary",
+    "href": "summary.html#results-summary",
+    "title": "1  Executive Summary",
+    "section": "1.2 Results Summary",
+    "text": "1.2 Results Summary\nThe results indicate that non-office environments contribute a greater share of injury costs (30.81%) compared to office environments (23.88%). The office injuries are primarily due to same-level falls, while non-office injuries are mainly caused by falls to lower levels (9.78%) and being struck by objects (9.56%). Statistical analysis revealed no significant difference in injury cost proportions between the two environments. Regional injury rates vary, but ANOVA results (p = 0.168) showed no statistically significant differences. Maine (116.3 per 100 workers) has the highest state-level injury rate, while Colorado (5.5 per 100 workers) has the lowest. Correlation analysis (r = -0.09, p = 0.553) showed no significant correlation between injury case volume and injury rates at the state level.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#conclusion-recommendations",
+    "href": "summary.html#conclusion-recommendations",
+    "title": "1  Executive Summary",
+    "section": "1.3 Conclusion & Recommendations",
+    "text": "1.3 Conclusion & Recommendations\nThese results suggest that while non-office environments account for higher total injury costs, office-related injuries may be disproportionately expensive per incident, suggesting that while fever, their impact may be more severe or cost-intensive. Addressing the cost impact of office-related injuries and examining regional variations in injury rates could provide guidance for improving workplace safety policies.\nIn conclusion, this report highlights the need for targeted injury prevention strategies, especially in office environments, and calls for further investigation into regional safety practices to reduce disparities in injury rates.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Executive Summary</span>"
+    ]
+  },
+  {
+    "objectID": "recommendations.html",
+    "href": "recommendations.html",
+    "title": "6  Recommendations",
+    "section": "",
+    "text": "Based on the findings, I recommend the following:\n\nEnhance Fall Prevention in Office Settings: Given the high proportion of fall-related costs in office environments, companies should invest in targeted fall prevention programs. These could include routine maintenance of flooring and employee education around slip and trip hazards.\nConduct Region-Specific Safety Assessments: Despite the lack of statistically significant regional differences, variation still exists at the state level. Businesses should consider conducting local assessments to tailor safety interventions to the specific risks and needs of each region.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Recommendations</span>"
+    ]
+  },
+  {
+    "objectID": "draft-conclusion.html",
+    "href": "draft-conclusion.html",
+    "title": "Appendix E — Draft: Conclusions",
+    "section": "",
+    "text": "F Conclusion\nThis analysis examined injury costs and risks in both office and non-office environments, as well as regional variations in injury rates. The findings show that office environments account for 23.9% of injury costs, while non-office environments contribute 30.8%. Falls are the leading cause of injury in both environments, with office settings bearing a disproportionate share of fall-related costs at 21.2%, compared to 9.8% in non-office environments. Although regional injury rates varied, ANOVA results indicated no statistically significant differences. Maine had the highest injury rate, while Colorado had the lowest. Additionally, the correlation analysis showed no meaningful relationship between injury volume and injury rate.\nWhile informative, this study has limitations, primarily due to the scope and limitations of publicly available data. The dataset may not fully capture unreported incidents, variations in workplace practices across industries, or inconsistencies in data collection. Future research could assess the effectiveness of safety policies, the quality of their implementation, and other factors influencing injury rates. Expanding the dataset to include more variables and detailed industry breakdowns would offer a more comprehensive understanding of injury risks.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Draft: Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "draft-conclusion.html#recommendations",
+    "href": "draft-conclusion.html#recommendations",
+    "title": "Appendix E — Draft: Conclusions",
+    "section": "F.1 Recommendations",
+    "text": "F.1 Recommendations\nBased on the findings, I recommend the following:\n\nFall Prevention in Office Settings: Given the high proportion of fall-related costs in office environments, companies should invest in targeted fall prevention programs. These could include routine maintenance of flooring and employee education around slip and trip hazards.\nRegion-Specific Safety Assessments: Despite the lack of statistically significant regional differences, variation still exists at the state level. Businesses should consider conducting local assessments to tailor safety interventions to the specific risks and needs of each region.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Draft: Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "3  Data & Methodology",
+    "section": "",
+    "text": "3.1 Data Sources\nThe analysis uses publicly available datasets from the U.S. Bureau of Labor Statistics (BLS) and the Centers for Disease Control and Prevention (CDC), covering workplace injuries, illnesses, and fatalities between 2019 and 2023.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html#data-sources",
+    "href": "methods.html#data-sources",
+    "title": "3  Data & Methodology",
+    "section": "",
+    "text": "Census of Fatal Occupational Injuries (CFOI): Tracks fatal workplace injuries by cause of death, industry, and worker demographics “Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results” (2024).\nSurvey of Occupational Injuries and Illnesses (SOII): Reports nonfatal workplace injuries and illnesses, including the nature of each injury and the amount of time off required “Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results” (2024).\nCDC State-by-State Occupational Health Data: Provides state-level injury and illness rates per 100 full-time workers, supporting geographic comparisons of workplace risks “NIOSH Worker Health Charts” (2024).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html#data-coverage-and-features",
+    "href": "methods.html#data-coverage-and-features",
+    "title": "3  Data & Methodology",
+    "section": "3.2 Data Coverage and Features",
+    "text": "3.2 Data Coverage and Features\nThe datasets include information on:\n\nInjury Types: Falls, sprains, back injuries, etc.\nIndustry Categories: Construction, healthcare, office work, etc.\nSeverity: Fatal vs. nonfatal incidents, including time off.\nWorker Demographics: Age, gender, employment status.\nWork Environment: Indoor vs. outdoor, high-risk vs. low-risk settings.\nGeography: State-level injury and illness counts and rates.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html#collection-and-verification",
+    "href": "methods.html#collection-and-verification",
+    "title": "3  Data & Methodology",
+    "section": "3.3 Collection and Verification",
+    "text": "3.3 Collection and Verification\nThe BLS compiles and verifies data using reports from OSHA, NIOSH, and various state labor departments. These datasets are intended to support occupational safety research, inform policy development, and promote public awareness initiatives “IIF Latest Numbers” (2024); “IIF Home” (2024).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html#analytical-approach",
+    "href": "methods.html#analytical-approach",
+    "title": "3  Data & Methodology",
+    "section": "3.4 Analytical Approach",
+    "text": "3.4 Analytical Approach\nTo identify trends and assess injury risks:\n\nProportions of injury costs were calculated by environment type (office vs. non-office).\nA t-test was conducted to evaluate whether the differences in injury cost proportions between office and non-office settings were statistically significant.\nANOVA was used to test for significant differences in injury rates across regions.\nPearson correlation was used to assess the relationship between injury case volume and injury rates at the state level.\n\n\n\n\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results.” 2024. Bureau of Labor Statistics. December 19, 2024. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results.” 2024. Bureau of Labor Statistics. November 8, 2024. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” 2024. Bureau of Labor Statistics. 2024. https://www.bls.gov/iif/.\n\n\n“IIF Latest Numbers.” 2024. Bureau of Labor Statistics. 2024. https://www.bls.gov/iif/latest-numbers.htm.\n\n\n“NIOSH Worker Health Charts.” 2024. February 12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "draft-data-doc.html",
+    "href": "draft-data-doc.html",
+    "title": "Appendix C — Draft: Data Documentations",
+    "section": "",
+    "text": "The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.\nThe data comes from two main sources:\n\nCensus of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics “Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results” (2024).\nSurvey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off “Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results” (2024).\n\nWhat the Data Includes:\n\nTypes of Injuries & Illnesses: Falls, sprains, back injuries, and more.\nIndustries Affected: Construction, healthcare, office jobs, and others.\nSeverity: Whether the injury was fatal or required time off work.\nWorker Details: Age, gender, and employment status.\nWork Environment: Indoor vs. outdoor jobs, high-risk workplaces.\nState Data: Number of injuries and illnesses by state, plus rates per 100 workers “NIOSH Worker Health Charts” (2024).\n\nHow the Data Is Collected & Used:\n\nThe Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards “IIF Latest Numbers” (2024); “IIF Home” (2024).\n\n\n\n\n\n“Census of Fatal Occupational Injuries Summary, 2023 - 2023 A01 Results.” 2024. Bureau of Labor Statistics. December 19, 2024. https://www.bls.gov/news.release/cfoi.nr0.htm.\n\n\n“Employer-Reported Workplace Injuries and Illnesses, 2023 - 2023 A01 Results.” 2024. Bureau of Labor Statistics. November 8, 2024. https://www.bls.gov/news.release/osh.nr0.htm.\n\n\n“IIF Home.” 2024. Bureau of Labor Statistics. 2024. https://www.bls.gov/iif/.\n\n\n“IIF Latest Numbers.” 2024. Bureau of Labor Statistics. 2024. https://www.bls.gov/iif/latest-numbers.htm.\n\n\n“NIOSH Worker Health Charts.” 2024. February 12, 2024. https://wwwn.cdc.gov/NIOSH-WHC/chart/bls-ii/injury?T=ZS&V=C&D=RANGE&chk_codes=False.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Draft: Data Documentations</span>"
+    ]
+  },
+  {
+    "objectID": "methods.html#data-features",
+    "href": "methods.html#data-features",
+    "title": "3  Data & Methodology",
+    "section": "3.2 Data Features",
+    "text": "3.2 Data Features\nThe datasets include information on:\n\nInjury Types: Falls, sprains, back injuries, and other common workplace incidents.\nIndustry Categories: Covers a range of sectors such as construction, healthcare, and office-based occupations.\nSeverity: Distinguishes between fatal and nonfatal incidents, including the extent of injury and time away from work.\nWorker Demographics: Captures data on age, gender, and employment status.\nWork Environment: Differentiates between indoor and outdoor settings, as well as high-risk and low-risk workplaces.\nGeography: Provides state-level injury and illness counts, along with standardized rates per 100 full-time workers.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data & Methodology</span>"
     ]
   }
 ]

@@ -1,0 +1,488 @@
+# Results
+
+```{r office_comparison_main}
+#| label: Office comparison maincode
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+library(scales)
+
+costly_injuries <- tibble(
+  cause = c("Overexertion involving outside sources", "Falls on same level", 
+            "Falls to lower level", "Struck by object or equipment",
+            "Other exertions or bodily reactions", "Roadway incidents",
+            "Slip or trip without fall", "Caught in equipment",
+            "Struck against object", "Repetitive motions"),
+  percentage = c(21.51, 17.21, 9.78, 9.56, 6.34, 4.76, 4.02, 3.54, 3.17, 2.65)
+) %>%
+  mutate(
+    office_related = case_when(
+      cause %in% c("Falls on same level", "Slip or trip without fall", 
+                   "Repetitive motions") ~ "Office",
+      cause %in% c("Falls to lower level", "Struck by object or equipment",
+                   "Roadway incidents", "Caught in equipment",
+                   "Struck against object") ~ "Non-Office",
+      TRUE ~ "Other"  
+    )
+  )
+
+# filter out "Other" category for comparisons
+classified_injuries <- costly_injuries %>%
+  filter(office_related != "Other")
+
+
+# fall-Specific Analysis
+fall_data <- classified_injuries %>%
+  filter(str_detect(cause, "Falls|Slip")) %>%
+  group_by(office_related) %>%
+  summarize(
+    total_percentage = sum(percentage),
+    n_types = n()
+  ) %>%
+  mutate(
+    prop_of_falls = total_percentage / sum(total_percentage)
+  )
+
+#  office vs non-office comparison 
+comparison_stats <- classified_injuries %>%
+  group_by(office_related) %>%
+  summarize(
+    total_percentage = sum(percentage),
+    avg_percentage = mean(percentage),
+    n_causes = n()
+  ) %>%
+  mutate(
+    prop_of_total = total_percentage / sum(total_percentage)
+  )
+
+# extract percentage values for each group
+office_percentages <- classified_injuries %>% 
+  filter(office_related == "Office") %>% 
+  pull(percentage)
+
+non_office_percentages <- classified_injuries %>% 
+  filter(office_related == "Non-Office") %>% 
+  pull(percentage)
+
+# perform t-test
+t_test_result <- t.test(office_percentages, non_office_percentages)
+
+# print results
+#cat("\n--- t-Test Results: Office vs. Non-Office Injury Costs ---\n")
+#print(t_test_result)
+
+t_result <- sprintf("t(%.2f) = %.2f", t_test_result$parameter, t_test_result$statistic)
+p_result <- sprintf("p = %.2f", t_test_result$p.value)
+ci_result <- sprintf("[%.2f, %.2f]", t_test_result$conf.int[1], t_test_result$conf.int[2])
+
+
+desc_stats <- classified_injuries %>%
+  group_by(office_related) %>%
+  summarize(
+    Mean = mean(percentage),
+    SD = sd(percentage),
+    .groups = 'drop'
+  )
+
+office_mean_sd <- sprintf("M = %.2f%%, SD = %.2f",
+                         desc_stats$Mean[desc_stats$office_related == "Office"],
+                         desc_stats$SD[desc_stats$office_related == "Office"])
+
+nonoffice_mean_sd <- sprintf("M = %.2f%%, SD = %.2f",
+                           desc_stats$Mean[desc_stats$office_related == "Non-Office"],
+                           desc_stats$SD[desc_stats$office_related == "Non-Office"])
+```
+
+```{r cost-table-hidden}
+#| include: false
+
+classified_injuries %>%
+  arrange(desc(percentage)) %>%
+  select(cause, percentage, office_related) %>%
+  kable(
+    caption = "Table 1: Breakdown of Injury Costs by Cause and Work Environment.",
+    col.names = c("Injury Cause", "% of Costs", "Environment"),
+    digits = 2
+  ) 
+
+same_level_fall <- classified_injuries %>% 
+  filter(cause == "Falls on same level") %>% 
+  pull(percentage) %>% 
+  round(2)
+
+lower_level_fall <- classified_injuries %>% 
+  filter(cause == "Falls to lower level") %>% 
+  pull(percentage) %>% 
+  round(2)
+
+struck_object <- classified_injuries %>% 
+  filter(cause == "Struck by object or equipment") %>% 
+  pull(percentage) %>% 
+  round(2)
+
+```
+
+```{r fall-comparison-table-hidden}
+#| include: false
+
+fall_data %>%
+  select(-n_types) %>%
+  mutate(`prop_of_falls` = round(`prop_of_falls` * 100, 2)) %>%
+  kable(
+    caption = "Table 2: Fall-Related Injury Costs by Work Environment",
+    col.names = c("Environment", "Total % of Costs", "Proportion of Falls (%)"),
+    digits = 2
+  )
+
+office_env <- fall_data %>%
+  filter(office_related == "Office") %>% 
+  pull(total_percentage) %>% 
+  round(2)
+
+non_office_env <- fall_data %>%
+  filter(office_related == "Non-Office") %>% 
+  pull(total_percentage) %>% 
+  round(2)
+
+office_prop <- fall_data %>% 
+  filter(office_related == "Office") %>% 
+  pull(prop_of_falls) %>% 
+  {round(. * 100, 2)}
+
+```
+
+```{r injury-overview-table-hidden}
+#| include: false
+
+comparison_stats %>%
+  select(-n_causes) %>%
+  mutate(`prop_of_total` = `prop_of_total` * 100) %>%
+  kable(
+    caption = "Table 3: Injury Cost Distribution by Work Environment",
+    col.names = c("Environment", "Total %", "Average % per Cause", "Proportion of Total (%)"),
+    digits = 2
+  )
+
+office_total <- comparison_stats %>%
+  filter(office_related == "Office") %>% 
+  pull(total_percentage) %>% 
+  round(2)
+
+non_office_total <- comparison_stats %>%
+  filter(office_related == "Non-Office") %>% 
+  pull(total_percentage) %>% 
+  round(2)
+
+office_avg  <- comparison_stats %>%
+  filter(office_related == "Office") %>% 
+  pull(avg_percentage) %>% 
+  round(2)
+
+non_office_avg  <- comparison_stats %>%
+  filter(office_related == "Non-Office") %>% 
+  pull(avg_percentage) %>% 
+  round(2)
+
+```
+
+## Comparing Injury Costs Between Office and Non-Office Environments
+
+An analysis of workplace injury data reveals that office environments contribute for (`r office_total`%) of total workplace injury costs, with same-level falls (`r same_level_fall`%) being the leading cause of injuries in office settings. In contrast, non-office environments represent a larger share of injury costs at (`r non_office_total`%), primarily due to falls to lower levels (`r lower_level_fall`%) and being struck by objects (`r struck_object`%).
+
+To determine whether these differences in injury cost proportions are statistically significant, I conducted a two-sample t-test. The results showed no significant difference between office and non-office environments, `r t_result`, `r p_result`. lthough office environments had a higher average injury cost proportion (`r office_mean_sd`) compared to non-office environments (`r nonoffice_mean_sd`), the 95% confidence interval `r ci_result` includes zero, suggesting that the observed difference could be due to random chance and is not statistically significant.
+
+```{r office_comparison_plot}
+#| echo: false
+#| warning: false
+#| fig.cap: "Figure 1: Causes of Workplace Injuries"
+
+ggplot(classified_injuries, 
+       aes(x = reorder(cause, percentage), y = percentage, 
+           fill = office_related)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values = c("#1f77b4", "#ff7f0e")) + # Office blue, Non-Office orange
+  labs(
+    title = "Workplace Injuries by Cause (2024)",
+    x = "",
+    y = "Percentage of Total Costs",
+    fill = "Work Environment"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom")
+
+```
+
+Figure 1 illustrates that office-related falls contribute more than twice the costs of non-office falls (`r office_env`% vs. `r non_office_env`%). This is consistent with the data presented in Table 1, which breaks down injury costs by cause and environment:
+
+```{r cost-table}
+#| label: Breakdown of cost Table
+#| echo: false
+#| warning: false
+
+classified_injuries %>%
+  arrange(desc(percentage)) %>%
+  select(cause, percentage, office_related) %>%
+  kable(
+    caption = "Table 1: Breakdown of Injury Costs by Cause and Work Environment.",
+    col.names = c("Injury Cause", "% of Costs", "Environment"),
+    digits = 2
+  )
+```
+
+Falls, particularly same-level falls and slips in office environments, contribute significantly to injury costs. Office-related falls account for `r office_env`% of fall-related injury costs, compared to just `r non_office_env`% for non-office falls. This highlights the financial impact of seemingly minor but frequent office accidents.
+
+```{r fall-comparison-table}
+#| echo: false
+#| warning: false
+
+fall_data %>%
+  select(-n_types) %>%
+  mutate(`prop_of_falls` = `prop_of_falls` * 100) %>%
+  kable(
+    caption = "Table 2: Fall-Related Injury Costs by Work Environment",
+    col.names = c("Environment", "Total % of Costs", "Proportion of Falls (%)"),
+    digits = 2
+  )
+
+```
+
+Table 2 further illustrates that office environments contribute a larger proportion (`r office_prop`%) of fall-related injury costs, despite non-office environments accounting for a greater share of total injury costs.
+
+```{r injury-overview-table}
+#| echo: false
+#| warning: false
+
+comparison_stats %>%
+  select(-n_causes) %>%
+  mutate(`prop_of_total` = `prop_of_total` * 100) %>%
+  kable(
+    caption = "Table 3: Injury Cost Distribution by Work Environment",
+    col.names = c("Environment", "Total %", "Average % per Cause", "Proportion of Total (%)"),
+    digits = 2
+  )
+
+```
+
+Table 3 summarizes the overall distribution of injury costs by work environment. While non-office environments account for a larger share of total injury costs (`r non_office_total`%), office environments have a higher average cost per injury cause (`r office_avg`% vs. `r non_office_avg`%). This suggests that although injuries in office settings may occur less frequently, they tend to be more expensive on a per-cause basis.
+
+## Regional and State-Level Injury Trends
+
+```{r state_comparison_main}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(ggplot2)
+library(knitr)
+library(scales)
+
+state_injuries <- tibble(
+  state = c("Alabama", "Alaska", "Arizona", "Arkansas", "California", 
+            "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
+            "Hawaii", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+            "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan",
+            "Minnesota", "Missouri", "Montana", "Nebraska", "Nevada",
+            "New Jersey", "New Mexico", "New York", "North Carolina",
+            "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+            "Rhode Island", "South Carolina", "South Dakota", "Tennessee",
+            "Texas", "Utah", "Vermont", "Virginia", "Washington",
+            "West Virginia", "Wisconsin", "Wyoming"),
+  injury_cases = c(935.5, 186.9, 1332.2, 581.5, 8331.6, 107.5, 928.7, 
+                   182.1, 1776.2, 1543.7, 306.9, 2739, 1753.7, 961.2, 733.9,
+                   1073.4, 656.3, 459.8, 1137.1, 1349.6, 2343.2, 1515.8,
+                   1391.2, 292.8, 520.6, 784.7, 1726.6, 423.1, 5432.1, 
+                   2456.3, 198.4, 3421.5, 892.7, 1023.8, 4231.9, 321.5,
+                   876.2, 215.3, 1324.7, 8765.4, 654.3, 187.2, 2134.5,
+                   1567.8, 543.2, 1765.4, 198.7),
+  incidence_rate = c(70.6, 93, 71.9, 68, 78.2, 5.5, 80.8, 60.9, 33.4, 53.9,
+                     81.3, 67.6, 85.7, 92.7, 79.6, 86.3, 49.2, 116.3, 66,
+                     58, 82, 81.6, 73.3, 104.8, 81.5, 87.2, 63.7, 72.1, 
+                     68.9, 74.5, 88.2, 79.1, 65.4, 76.8, 71.9, 83.4, 69.2,
+                     91.5, 77.3, 70.8, 75.6, 84.3, 72.9, 79.8, 96.2, 82.7,
+                     89.1)
+) %>%
+  mutate(
+    region = case_when(
+      state %in% c("Connecticut", "Maine", "Massachusetts", "New Hampshire",
+                  "Rhode Island", "Vermont", "New Jersey", "New York",
+                  "Pennsylvania") ~ "Northeast",
+      state %in% c("Illinois", "Indiana", "Michigan", "Ohio", "Wisconsin",
+                  "Iowa", "Kansas", "Minnesota", "Missouri", "Nebraska",
+                  "North Dakota", "South Dakota") ~ "Midwest",
+      state %in% c("Delaware", "Florida", "Georgia", "Maryland", "North Carolina",
+                  "South Carolina", "Virginia", "West Virginia", "Alabama",
+                  "Kentucky", "Mississippi", "Tennessee", "Arkansas", "Louisiana",
+                  "Oklahoma", "Texas") ~ "South",
+      TRUE ~ "West"
+    ),
+    region = factor(region, levels = c("Northeast", "Midwest", "South", "West"))
+  )
+
+
+# Regional Analysis
+regional_summary <- state_injuries %>%
+  group_by(region) %>%
+  summarise(
+    avg_rate = mean(incidence_rate),
+    median_rate = median(incidence_rate),
+    total_states = n(),
+    total_injuries = sum(injury_cases),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(avg_rate))
+
+#  High/Low States
+high_low_states <- bind_rows(
+  state_injuries %>% slice_max(incidence_rate, n = 5) %>% mutate(rank = "Highest"),
+  state_injuries %>% slice_min(incidence_rate, n = 5) %>% mutate(rank = "Lowest")
+)
+
+# ANOVA for regional differences
+aov_result <- aov(incidence_rate ~ region, data = state_injuries)
+tukey_result <- TukeyHSD(aov_result)
+
+# Extract ANOVA p-value correctly
+anova_summary <- summary(aov_result)
+anova_p <- anova_summary[[1]]$`Pr(>F)`[1]  
+anova_result <- sprintf("p = %.3f", anova_p)
+
+# Correlation between case volume and rate
+cor_test <- cor.test(state_injuries$injury_cases, state_injuries$incidence_rate)
+cor_result <- sprintf("r = %.2f, p = %.3f", 
+                     cor_test$estimate, 
+                     cor_test$p.value)
+```
+
+```{r region-rate-table-hidden}
+#| include: false
+
+regional_summary %>%
+  kable(
+    caption = "Table 4: Workplace Injury Rates by Region",
+    col.names = c("Region", "Average Rate", "Median Rate", 
+                 "Number of States", "Total Injuries (Thousands)"),
+    digits = 2
+  )
+
+midwest_avg  <- regional_summary %>%
+  filter(region == "Midwest") %>% 
+  pull(avg_rate) %>% 
+  round(2)
+
+south_avg  <- regional_summary %>%
+  filter(region == "South") %>% 
+  pull(avg_rate) %>% 
+  round(2)
+
+```
+
+```{r state-rate-table-hidden}
+#| include: false
+
+high_low_states %>%
+  select(rank, state, incidence_rate, injury_cases, region) %>%
+  arrange(desc(rank), desc(incidence_rate)) %>%
+  kable(
+    caption = "Table 5: States with the Highest and Lowest Workplace Injury Rates",
+    col.names = c("Rank", "State", "Injury Rate", "Cases (Thousands)", "Region"),
+    digits = 2
+  )
+
+maine <- high_low_states %>%
+  filter(state == "Maine") %>% 
+  pull(incidence_rate) %>% 
+  round(2)
+
+colorado <- high_low_states %>%
+  filter(state == "Colorado") %>% 
+  pull(incidence_rate) %>% 
+  round(2)
+
+```
+
+Workplace injury rates shows significant geographic variation across the United States. The Midwest reports the highest injury rate at `r midwest_avg` per 100 workers, which may be due to the region's concentration of labor-intensive industries. In contrast, the south has the lowest rate at `r south_avg` per 100 workers, possibly reflecting stronger workplace safety regulations or a higher proportion of office-based jobs.
+
+While injury rates vary across regions, a one-way ANOVA revealed no statistically significant differences in injury rates (`r anova_result`), suggesting that regional variations in injury rates are not substantial enough to impact injury rates in a statistically meaningful way.
+
+I also conducted a Pearson correlation between total injury case volume and injury rates by state. The analysis found no significant correlation (`r cor_result`), indicating that states with higher total injury case volumes do not necessarily experience higher injury rates per 100 workers.
+
+```{r state_comparison_plot}
+#| echo: false
+#| warning: false
+#| fig.cap: "Figure 2: Comparison of Workplace Injury Rates Across Different States"
+
+# Set plot layout 
+par(mfrow = c(2, 2))
+
+# Plot 1: Histogram of State Rates
+hist(state_injuries$incidence_rate, breaks = 15, col = "steelblue",
+     main = "Distribution of State Injury Rates",
+     xlab = "Injuries per 100 Workers", ylab = "Number of States")
+
+# Plot 2: Regional Comparison
+boxplot(incidence_rate ~ region, data = state_injuries, col = "orange",
+        main = "Injury Rates by Region", ylab = "Injuries per 100 Workers",
+        las = 2)
+
+# Plot 3: Top/Bottom States
+barplot(height = matrix(high_low_states$incidence_rate, nrow = 2, byrow = FALSE),
+        beside = TRUE,
+        col = c("firebrick", "steelblue"),
+        names.arg = high_low_states$state,
+        main = "Highest/Lowest Injury Rates by State",
+        ylab = "Injuries per 100 Workers",
+        las = 2,
+        cex.names = 0.8)  
+
+legend("topright", 
+       fill = c("firebrick", "steelblue"), 
+       legend = c("Highest", "Lowest"))
+
+# Plot 4: Rate vs. Case Volume
+plot(state_injuries$injury_cases, state_injuries$incidence_rate,
+     col = as.numeric(state_injuries$region), pch = 19,
+     main = "Injury Rate vs. Case Volume",
+     xlab = "Number of Injury Cases (Thousands)", 
+     ylab = "Injury Rate per 100 Workers")
+legend("topright", legend = levels(state_injuries$region),
+       col = 1:4, pch = 19)
+
+# Reset plotting layout
+par(mfrow = c(1, 1))
+```
+
+Figure 2 illustrates that the Midwest has both the highest median and the most variable injury rates across regions.
+
+```{r region-rate-table}
+#| echo: false
+#| warning: false
+
+regional_summary %>%
+  kable(
+    caption = "Table 4: Workplace Injury Rates by Region",
+    col.names = c("Region", "Average Rate", "Median Rate", 
+                 "Number of States", "Total Injuries (Thousands)"),
+    digits = 2
+  )
+```
+
+At the state level, Maine has the highest injury rate at `r maine` per 100 workers more than 20 times higher than Colorado's rate of `r colorado` per 100 workers, which is the lowest. Despite this difference, correlation analysis (`r cor_result`) suggests no significant relationship between injury case volume and injury rate, indicating that states with higher total injury counts do not necessarily have higher injury rates.
+
+```{r state-rate-table}
+#| echo: false
+#| warning: false
+
+high_low_states %>%
+  select(rank, state, incidence_rate, injury_cases, region) %>%
+  arrange(desc(rank), desc(incidence_rate)) %>%
+  kable(
+    caption = "Table 5: States with the Highest and Lowest Workplace Injury Rates",
+    col.names = c("Rank", "State", "Injury Rate", "Cases (Thousands)", "Region"),
+    digits = 2
+  )
+
+```

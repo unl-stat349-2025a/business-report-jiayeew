@@ -9,14 +9,19 @@ book:
     left: "Copyright 2025, Jia Yee Wong"
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
+    - intro.qmd
+    - methods.qmd
+    - results.qmd
+    - conclusion.qmd
+    - recommendations.qmd
     - references.qmd
   appendices:
+    - draft-exec-summary.qmd
+    - draft-intro-conclusions.qmd
     - draft-data-doc.qmd
     - draft-results.qmd
-    - draft-intro-conclusions.qmd
-    - draft-exec-summary.qmd
+    - draft-conclusion.qmd
 
 bibliography: references.bib
 

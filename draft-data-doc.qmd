@@ -1,12 +1,12 @@
 ---
-title: "Draft: Data Documentation"
+title: "Draft: Data Documentations"
 ---
 The dataset from Bureau of Labor Statistics covers workplace injuries, illnesses, and fatalities in the U.S. from 2019 to 2023. It includes numbers on both fatal and nonfatal incidents, helping to identify workplace risks and safety trends. The dataset for State-by-State fron CDC includes injury and illness rates for each state, measured per 100 full-time workers. This helps for comparing between states to see where workplace risks are higher.
 
 The data comes from two main sources:
 
- - Census of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics.
- - Survey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off.
+ - Census of Fatal Occupational Injuries (CFOI) – Tracks fatal workplace injuries, including the cause of death, industry, and worker demographics   @CensusFatalOccupational.
+ - Survey of Occupational Injuries and Illnesses (SOII) – Reports nonfatal injuries and illnesses, such as falls, sprains, and back injuries. It also includes details on how serious the injuries were and how much time workers needed off @EmployerReportedWorkplaceInjuries.
  
 What the Data Includes: 
 
@@ -15,18 +15,10 @@ What the Data Includes:
  - Severity:  Whether the injury was fatal or required time off work.
  - Worker Details:  Age, gender, and employment status.
  - Work Environment: Indoor vs. outdoor jobs, high-risk workplaces.
- - State Data: Number of injuries and illnesses by state, plus rates per 100 workers.
+ - State Data: Number of injuries and illnesses by state, plus rates per 100 workers @NIOSHWorkerHealth2024.
  
 
 How the Data Is Collected & Used:
 
- - The Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards.
+ - The Bureau of Labor Statistics (BLS) verifies the data using reports from OSHA, NIOSH, and state labor departments. This data is publicly available and can be used for research, safety improvements, and workplace policy development. Some possible analysis methods include looking at injury trends over time, comparing risks across industries and states, and identifying emerging workplace hazards @IIFLatestNumbers; @IIFHome.
 
-
-Citation:
-
- - @CensusFatalOccupational
- - @EmployerReportedWorkplaceInjuries 
- - @IIFHome
- - @IFLatestNumbers
- - @NIOSHWorkerHealth2024
