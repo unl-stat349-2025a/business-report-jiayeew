@@ -2,8 +2,6 @@
 title: "Draft: Conclusions"
 ---
 
-# Conclusion
-
 This analysis examined injury costs and risks in both office and non-office environments, as well as regional variations in injury rates. The findings show that office environments account for 23.9% of injury costs, while non-office environments contribute 30.8%. Falls are the leading cause of injury in both environments, with office settings bearing a disproportionate share of fall-related costs at 21.2%, compared to 9.8% in non-office environments. Although regional injury rates varied, ANOVA results indicated no statistically significant differences. Maine had the highest injury rate, while Colorado had the lowest. Additionally, the correlation analysis showed no meaningful relationship between injury volume and injury rate.
 
 While informative, this study has limitations, primarily due to the scope and limitations of publicly available data. The dataset may not fully capture unreported incidents, variations in workplace practices across industries, or inconsistencies in data collection. Future research could assess the effectiveness of safety policies, the quality of their implementation, and other factors influencing injury rates. Expanding the dataset to include more variables and detailed industry breakdowns would offer a more comprehensive understanding of injury risks.

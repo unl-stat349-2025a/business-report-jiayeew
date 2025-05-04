@@ -8,13 +8,11 @@ book:
   page-footer:
     left: "Copyright 2025, Jia Yee Wong"
   chapters:
-    - index.qmd
-    - summary.qmd
+    - index.qmd  #this is my exec summary because I when I delete my index.qmd an error will appear
     - intro.qmd
     - methods.qmd
     - results.qmd
     - conclusion.qmd
-    - recommendations.qmd
     - references.qmd
   appendices:
     - draft-exec-summary.qmd

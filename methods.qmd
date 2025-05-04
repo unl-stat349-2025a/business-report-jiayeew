@@ -4,11 +4,13 @@ The analysis uses publicly available datasets from the U.S. Bureau of Labor Stat
 
 ## Data Sources
 
--   **Census of Fatal Occupational Injuries (CFOI)**: Tracks fatal workplace injuries by cause of death, industry, and worker demographics @CensusFatalOccupational.
+-   **Census of Fatal Occupational Injuries (CFOI)**: Tracks fatal workplace injuries by cause of death, industry, and worker demographics [@CensusFatalOccupational].
 
--   **Survey of Occupational Injuries and Illnesses (SOII)**: Reports nonfatal workplace injuries and illnesses, including the nature of each injury and the amount of time off required @EmployerReportedWorkplaceInjuries.
+-   **Survey of Occupational Injuries and Illnesses (SOII)**: Reports nonfatal workplace injuries and illnesses, including the nature of each injury and the amount of time off required [@EmployerReportedWorkplaceInjuries].
 
--   **CDC State-by-State Occupational Health Data**: Provides state-level injury and illness rates per 100 full-time workers, supporting geographic comparisons of workplace risks @NIOSHWorkerHealth2024.
+-   **CDC State-by-State Occupational Health Data**: Provides state-level injury and illness rates per 100 full-time workers, supporting geographic comparisons of workplace risks [@NIOSHWorkerHealth2024].
+
+-   **Liberty Mutual Insurance**: Provides the top 10 causes of the most disabling U.S. workplace injuries by cost in 2024 [@2024WorkplaceSafety].
 
 ## Data Features
 
@@ -28,13 +30,34 @@ The datasets include information on:
 
 ## Collection and Verification
 
-The BLS compiles and verifies data using reports from OSHA, NIOSH, and various state labor departments. These datasets are intended to support occupational safety research, inform policy development, and promote public awareness initiatives @IIFLatestNumbers; @IIFHome.
+The BLS compiles and verifies data using reports from OSHA, NIOSH, and various state labor departments. These datasets are intended to support occupational safety research, inform policy development, and promote public awareness initiatives [@IIFLatestNumbers].
+
+## Data Classification
+
+In preparation for analysis, injury causes were categorized into two groups: **Office** and **Non-Office**, based on the typical work environments in which these incidents occur.
+
+- **Office-related injuries** include falls on same level, slip or trip without fall, and repetitive motions.
+- **Non-office injuries** include falls to lower level, struck by object or equipment, roadway incidents, being caught in equipment, and struck against object.
+
+Injuries that did not clearly belong to either group were classified as **Other**, including categories such as Overexertion involving outside sources and Other exertions or bodily reactions. For the purposes of comparative analysis, the "Other" category was excluded to ensure a focused comparison between Office and Non-Office injury patterns.
+
+
+## R Packages and Software
+
+The analysis was conducted in R (version 4.3.2). The following packages were used for data cleaning, analysis, and visualization:
+
+- readxl [@readxl]: For reading Excel Files
+- tidyverse [@tidyverse]: For data wrangling and manipulation
+- ggplot2 [@ggplot2]: For data visualization
+- scales [@scales]: For formatting plot scales and labels
+- knitr[@knitr]: For report generation and formatting
+
 
 ## Analytical Approach
 
-To identify trends and assess injury risks:
+To identify trends and assess injury risks, the following analytical methods were applied:
 
--   Proportions of injury costs were calculated by environment type (office vs. non-office).
+-   Proportions of injury costs were calculated by environment type (Office vs. Non-Office).
 
 -   A t-test was conducted to evaluate whether the differences in injury cost proportions between office and non-office settings were statistically significant.
 
